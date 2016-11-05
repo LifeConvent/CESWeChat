@@ -1,0 +1,190 @@
+html {
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+body {
+    /*line-height: 1.6;*/
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color: #f1f0f6;
+}
+
+.addopenid_container {
+    font-size: 16px;
+}
+
+.lbox_close {
+    position: relative;
+}
+
+.wxapi_form {
+    background-color: #ffffff;
+    padding: 0 15px;
+    margin-top: 10px;
+    padding-bottom: 10px;
+}
+
+/*文字备注描述*/
+.desc {
+    height: 45px;
+    line-height: 45px;
+
+    margin-left: 2%;
+    font-size: 14px;
+    font-weight: 400;
+    /*line-height: 2em;*/
+    color: #8d8c92;
+    float: left;
+    text-align: center;
+}
+
+.star {
+    height: 45px;
+    line-height: 45px;
+    color: red;
+    float: left;
+    text-align: right;
+}
+
+.hint {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    line-height: 15px;
+    margin-left: -20px;
+    text-align: left;
+    font-size: 10px;
+    color: red;
+    float: left;
+}
+
+.input_text {
+    height: 45px;
+    border: dashed;
+    border-bottom-width: 0px;
+    border-color: #FFFFFF;
+}
+
+.title {
+    color: #04be02;
+    font-size: 18px;
+}
+
+.btn {
+    margin-bottom: 15px;
+}
+
+.btn_primary {
+    margin-top: 4%;
+    background-color: #04be02;
+}
+
+button {
+    font-family: inherit;
+    font-size: 100%;
+    margin: 0;
+    *font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/*微信button样式模版*/
+.btn {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 14px;
+    padding-right: 14px;
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none;
+    overflow: visible;
+    /*.btn_h(@btnHeight);*/
+    height: 42px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    color: #ffffff;
+    line-height: 42px;
+    -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+}
+
+/*editText样式模版*/
+.edt {
+    display: block;
+    margin-left: 20%;
+    margin-top: 8px;
+    margin-bottom: 8px;
+
+    padding-left: 14px;
+    padding-right: 14px;
+    font-size: 14px;
+    text-align: left;
+    /*text-decoration: none;*/
+    /*overflow: visible;*/
+    /*.btn_h(@btnHeight);*/
+    height: 26px;
+    width: 160px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    /*box-sizing: border-box;*/
+    /*-moz-box-sizing: border-box;*/
+    /*-webkit-box-sizing: border-box;*/
+
+    /*字体颜色*/
+    /*color: #ffffff;*/
+
+}
+
+.edt_primary {
+    background-color: #fff;
+    /*float: left;*/
+}
+
+.btn_primary {
+    background-color: #04be02;
+}
+
+.btn_primary:visited {
+    color: #ffffff;
+}
+
+.btn_primary:active {
+    color: rgba(255, 255, 255, 0.9);
+    background-color: #039702;
+}
+
+button.btn {
+    width: 100%;
+    border: 0;
+    outline: 0;
+    /*按照本地默认样式显示元素外观*/
+    -webkit-appearance: none;
+}
+
+h1 {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 2em;
+    padding-left: 15px;
+    color: #8d8c92;
+}
+
+h3 {
+    padding-top: 16px;
+    margin-top: 25px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #3e3e3e;
+    position: relative;
+}
+
+/*.btn.btn_inline {*/
+/*display: inline-block;*/
+/*}*/
+/*button.btn:focus {*/
+/*outline: 0;*/
+/*}*/
