@@ -4,6 +4,8 @@
  * User: lawrance
  * Date: 16/10/26
  * Time: 下午2:17
+ * function  设置用户标签分组接口 {:U('Home/UserManager/uploaderSetTag')} POST数据：标签名称 网址：http://HOST:PORT/CES/index.php/Home/UserManager/uploaderSetTag
+ * function  为标签添加用户接口 {:U('Home/UserManager/setTagUser')} POST数据：用户学号数组、发送文本内容（支持HTML） 网址：http://HOST:PORT/CES/index.php/Home/UserManager/setTagUser
  */
 
 namespace Home\Controller;
@@ -13,28 +15,99 @@ use Think\Model;
 
 class UserManagerController extends Controller
 {
-    public function uploaderSetTag()
+    /**
+     * @function 向服务器发送创建标签申请
+     * @param null $tag POST tag名称
+     * @return bool true成功 false失败
+     */
+    public function uploaderSetTag($tag = null)
     {
+        if ($tag == null) {
+            $tag = $_POST['tag'];
+//            $tag = $_GET['tag'];
+        }
         $upMenu = new MenuController();
         $access_token = $upMenu->getAccessToken();
         $url = 'https://api.weixin.qq.com/cgi-bin/tags/create?access_token=' . $access_token;
-        $dataClass = new DataController();
-        $result = $upMenu->https_request($url, $dataClass->tag);
+        if ($tag == null) {
+            return false;
+        }
+        $up_tag = '{
+                    "tag" : {
+                        "name" : "' . $tag . '"
+                    }
+                   }';
+
+        $result = $upMenu->https_request($url, $up_tag);
+//        dump($result);
         $data = new \stdClass();
         $data = json_decode($result);
         $data = $data->tag;
-        //将获得的对应标签用户id name 存储用户OpenID至数据库  未处理错误时的情况
-        $data->id;
-        $data->name;
+        if ($data->id == null || $data->name == null) {
+            return false;
+        }
+        //将获得的对应标签用户id name 存储用户OpenID至数据库
+        $tag_info['tag_id'] = $data->id;
+        $tag_info['tag_name'] = $data->name;
+        $tag = M('user_tag');
+        $result = $tag->add($tag_info);
+        dump($result);
+        if ($result) {
+            return true;
+        } else {
+            return false;
+        }
     }
 
-    public function setTagUser()
+    /**    未测试接口
+     * @function 通过标签ID标记用户
+     * @param null $tagid 微信端分组标签id
+     * @param null $userid 要被标记的用户数组，以此获取OpenID
+     * @return bool true成功标记
+     */
+    public function setTagUser($tagid = null, $userid = null)
     {
+        if ($tagid == null || $userid == null) {
+            $tag = $_POST['tag'];
+            $tag = $_POST['userid'];
+        }
         $upMenu = new MenuController();
         $access_token = $upMenu->getAccessToken();
         $url = 'https://api.weixin.qq.com/cgi-bin/tags/members/batchtagging?access_token=' . $access_token;
-        $dataClass = new DataController();
-        $result = $upMenu->https_request($url, $dataClass->user_tags);
+        if ($tagid == null || $userid == null) {
+            return false;
+        }
+
+        $useridList = array();
+        if (!is_array($userid)) {
+            $useridList[] = $userid;
+        } else {
+            $useridList = $userid;
+        }
+        $openIDList = array();
+        $groupSend = new GroupSendController();
+        for ($i = 0; $i < sizeof($useridList); $i++) {
+            $openIDList[] = $groupSend->searchUserByUserID($useridList[$i]);
+//                dump($openIDList);
+        }
+
+        $user_tags1 = '{
+                          "openid_list" : [
+                            "';
+        for ($i = 0; $i < sizeof($openIDList); $i++) {
+            if ($i == sizeof($openIDList) - 1) {
+                $user_tags1 .= $openIDList[$i];
+            } else {
+                $user_tags1 .= $openIDList[$i] . '","';
+            }
+        }
+        $user_tags2 = '",
+                          ],
+                          "tagid" : ' . $tagid . '
+                        }';
+        $user_tags = $user_tags1.$user_tags2;
+
+        $result = $upMenu->https_request($url, $user_tags);
         $data = new \stdClass();
         $data = json_decode($result);
         if ($data->errmsg == 'ok')
@@ -57,27 +130,32 @@ class UserManagerController extends Controller
         $stuNum = $_POST['stu_num'];
         $stuPro = $_POST['stu_pro'];
         //能进入绑定界面的即认为为绑定的人员信息，直接进行绑定
-        $res = $this->checkUserInfo($stuName,$stuNum,$stuPro);
-        if($res=='1'){
-            $res = $this->updateUserInfo($OpenId,$stuNum);
-            if ($res) {
-                $result['status'] = 'success';
-                $result['hint'] = '绑定成功！';
+        $res = $this->checkUserInfo($stuName, $stuNum, $stuPro);
+        if ($res == '1') {
+            if (!$this->searchUserByOpenID($OpenId)) {
+                $res = $this->updateUserInfo($OpenId, $stuNum);
+                if ($res) {
+                    $result['status'] = 'success';
+                    $result['hint'] = '绑定成功！';
+                } else {
+                    $result['status'] = 'failed';
+                    $result['hint'] = '绑定失败！';
+                }
             } else {
                 $result['status'] = 'failed';
-                $result['hint'] = '绑定失败！';
+                $result['hint'] = '用户已绑定，无需重复绑定！';
             }
-        }else if($res=='0'){
+        } else if ($res == '0') {
             $result['status'] = 'failed';
             $result['hint'] = '用户不存在！';
-        }else{
+        } else {
             $result['status'] = 'failed';
             $result['hint'] = '用户信息不匹配！';
         }
         exit(json_encode($result));
     }
 
-    public function checkUserInfo($stuName=null,$stuNum=null,$stuPro=null)
+    public function checkUserInfo($stuName = null, $stuNum = null, $stuPro = null)
     {
 //        $stuName='高彪';
 //        $stuNum='2013558';
@@ -86,12 +164,12 @@ class UserManagerController extends Controller
         $temp['stu_name'] = $stuName;
         $temp['stu_num'] = $stuNum;
         $temp['stu_pro'] = $stuPro;
-        $condition['stu_num'] = $stuNum;
+        $condition['stu_num'] = "$stuNum";
         $result = $user->where($condition)->select();//对象查找
-        if(!$result){
+        if (!$result) {
 //            echo '0';
-          return '0';
-        } else if ($result[0]['stu_name']==$temp['stu_name']&&$temp['stu_pro']==$result[0]['stu_pro']) {
+            return '0';
+        } else if ($result[0]['stu_name'] == $temp['stu_name'] && $temp['stu_pro'] == $result[0]['stu_pro']) {
 //            echo '1';
             return '1';
         } else {
@@ -100,10 +178,10 @@ class UserManagerController extends Controller
         }
     }
 
-    public function updateUserInfo($OpenId,$stuNum)
+    public function updateUserInfo($OpenId, $stuNum)
     {
         $user = M('user');//实例化user_info表模型对象
-        if($OpenId==null||$stuNum==null){
+        if ($OpenId == null || $stuNum == null) {
             return false;
         }
         $temp['openid'] = "$OpenId";
@@ -116,10 +194,10 @@ class UserManagerController extends Controller
         }
     }
 
-    public function searchUserByOpenID($OpenID=null)
+    public function searchUserByOpenID($OpenID = null)
     {
         $user = M('user');//实例化user_info表模型对象
-        $temp["openid"] = $OpenID;
+        $temp["openid"] = "$OpenID";
 
         $list = $user->where($temp)->find();//对象查询
 
@@ -128,6 +206,21 @@ class UserManagerController extends Controller
             return true;
         } else {
             return false;
+        }
+    }
+
+    public function searchUserNameByOpenID($OpenID = null)
+    {
+        $user = M('user');//实例化user_info表模型对象
+        $temp["openid"] = "$OpenID";
+
+        $list = $user->where($temp)->find();//对象查询
+
+        if ($list) {
+//            echo '0';
+            return $list['stu_name'];
+        } else {
+            return '';
         }
     }
 }

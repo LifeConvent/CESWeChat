@@ -35,25 +35,45 @@ class MenuController extends Controller
      */
     public function upMenuList($menu = null)
     {
+        if ($menu == null) {
+            $menu = $_POST['menu'];
+        }
+
+        if ($_POST['data'] != '') {
+            $contentSQL = $_POST['data'];
+            for ($i = 0; $i < sizeof($contentSQL); $i++) {
+                $jsonObject = new \stdClass();
+                $jsonObject = json_decode($contentSQL[$i]);
+                //写入数据库（tb_key2content）
+                $result = $this->addKeyToContent($jsonObject->key, $jsonObject->content);
+                if (!$result) {
+                    $temp['status'] = 'failed';
+                    $temp['message'] = 'failed_insert';
+                    exit(json_encode($temp));
+                }
+            }
+        }
+
         $access_token = $this->getAccessToken();
         $url = "https://api.weixin.qq.com/cgi-bin/menu/create?access_token=" . $access_token;
-        if (empty($menu)) {
+        if ($menu == null) {
             $dataClass = new DataController();
             $result = $this->https_request($url, $dataClass->jsonmenu);
-        } else
+        } else {
             $result = $this->https_request($url, $menu);
+        }
         //对返回结果的处理
 
         $data = new \stdClass();
         $data = json_decode($result);
 
-        var_dump($result);
-
         if ($data->errmsg == 'ok') {
-            return true;
+            $temp['status'] = 'success';
         } else {
-            return false;
+            $temp['status'] = 'failed';
+            $temp['message'] = $data->errcode;
         }
+        exit(json_encode($temp));
     }
 
     public function https_request($url, $data = null)
@@ -77,6 +97,32 @@ class MenuController extends Controller
         $output = curl_exec($curl);
         curl_close($curl);
         return $output;
+    }
+
+    public function addKeyToContent($key, $content)
+    {
+        $key2content = M('menu_content');
+        $condition['keyid'] = "$key";
+        $condition['content'] = "$content";
+
+        $result = $key2content->add($condition);
+        if ($result) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+
+    public function searchByMenuKey($key){
+        $key2content = M('menu_content');
+        $condition['keyid'] = "$key";
+
+        $result = $key2content->field('content')->where($condition)->find();
+        if ($result) {
+            return $result['content'];
+        } else {
+            return '';
+        }
     }
 }
 

@@ -25,17 +25,6 @@
             return;
         }
 
-//        this.data = new Array();
-//        this.put = function(key,value){
-//            this.data[key] = value;
-//        };
-//        data.put('stu_name',stuName);
-//        data.put('stu_num',stuNum);
-//        data.put('stu_pro',stuPro);
-//        data.put('openid',openid);
-
-//        alert("----" + stuNum + "----" + stuPro);
-
         $.ajax({
             type: "POST", //用POST方式传输
             url: "{:U('Home/UserManager/bindUserInfo')}", //目标地址.
@@ -47,6 +36,9 @@
                 } else {
                     alert(result.hint);
                 }
+                WeixinJSBridge.invoke('closeWindow',{},function(res){
+                    //alert(res.err_msg);
+                });
             }
         });
     }
@@ -70,16 +62,16 @@
             <span class="star"><sup>*</sup></span>
             <span class="desc">专业:</span>
             <select class="edt edt_primary" style="width:190px" id="stu_pro">
-                <option value="1">1 - 计算机科学与技术</option>
-                <option value="2">2 - 信息安全</option>
-                <option value="3">3 - 信息与计算科学</option>
-                <option value="4">4 - 计算机科学与技术（中加方向）</option>
-                <option value="5">5 - 网络工程</option>
-                <option value="6">6 - 物联网工程</option>
-                <option value="7">7 - 通信工程</option>
+                <option value="1">计算机科学与技术</option>
+                <option value="2">信息安全</option>
+                <option value="3">信息与计算科学</option>
+                <option value="4">计算机科学与技术（中加方向）</option>
+                <option value="5">网络工程</option>
+                <option value="6">物联网工程</option>
+                <option value="7">通信工程</option>
             </select>
             <!--<input class="edt edt_primary" placeholder="请输入您所在的专业编号" id="stu_pro"/>-->
-            <span class="hint"><span style="margin-left:-10px;">注意事项：</span><br/>1 - 计算机科学与技术<br/>2 - 信息安全<br/>3 - 信息与计算科学<br/>4 - 计算机科学与技术（中加方向）<br/>5 - 网络工程<br/>6 - 物联网工程<br/>7 - 通信工程</span>
+            <span class="hint"><span style="margin-left:-10px;">注意事项：</span><br/>1. 个人信息绑定仅限理工大学计算机学院已毕业五年内校友或在读学生。<br/>2. 填写正确的姓名学号进行绑定。<br/>3. 绑定后的个人信息无法进行修改。<br/>4. 绑定失败、有任何问题请联系管理员或在微信公众平台直接回复，在校生可联系院教学秘书。<br/>5. 在本系统中的所有违法操作，本平台有权追究相应法律责任。<br/>6. 最终解释权归本系统所有。</span>
         </div>
         <button class="btn btn_primary" id="bt" onclick="bindUserInfo();">确认绑定</button>
     </div>

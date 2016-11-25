@@ -32,7 +32,6 @@ class wechatCallbackapiTest
 //        $postStr = $GLOBALS["HTTP_RAW_POST_DATA"];
 //        取得XML数据包信息
         $postStr = file_get_contents('php://input');
-
         //extract post data
         if (!empty($postStr)) {
             //启动安全防御
@@ -69,6 +68,34 @@ class wechatCallbackapiTest
     }
 }
 
+
+class AccessController extends Controller
+{
+    public function access()
+    {
+        $wechatObj = new wechatCallbackapiTest();
+        if ($_GET['echostr']) {
+            $wechatObj->valid(); //如果发来了echostr则进行验证
+        } else {
+            $wechatObj->responseMsg(); //如果没有echostr，则返回消息
+        }
+    }
+
+    public function search($content = null)
+    {
+        $auto_res = M('auto_response');
+        $condition['user_input'] = "$content";
+        $result = $auto_res->where($condition)->find();
+        if ($result) {
+            return $result['sys_response'];
+        } else {
+            return '';
+        }
+    }
+
+}
+
+
 /**
  * @function 处理微发来的消息时间
  * @param $object
@@ -79,7 +106,6 @@ function catchEvent($object)
     //对象为空时要向微信返回空字符串
     if (empty($object))
         echo '';
-
     $OpenID = $object->FromUserName;
     $userMana = new UserManagerController();
     $result = $userMana->searchUserByOpenID($OpenID);
@@ -93,32 +119,13 @@ function catchEvent($object)
 
         switch ($object->MsgType) {
             case 'text': {
-                echo transmitText($object, '感谢您的支持！');
-//                $keyword = trim($object->Content);
-//                $data = getUserInfo($keyword);
-//                if ($data['code'] == 1) {
-//                    $newsArray = array();
-//                    $newsArray[] = array("Title" => $keyword . "的成绩查询结果", "Description" => "成绩查询结果", "PicUrl" => 'http://' . $_SERVER['HTTP_HOST'] . "/WeiXin/Public/image/sample.jpg", "Url" => $_SERVER['HTTP_HOST'] . "/WeiXin/index.php/Home/Grade/deal?stu_num=" . $keyword);
-//                    echo transmitNews($object, $newsArray);
-//                    exit();
-//                } else if (strstr($keyword, '课程评价+')) {
-//                    $stu_num = substr($keyword, 13, 8);
-//                    $data = getCourseInfo($stu_num);
-//                    if ($data['code'] == 1) {
-//                        $newsArray = array();
-//                        $newsArray[] = array("Title" => "课程评价", "Description" => "课程评价", "PicUrl" => 'http://' . $_SERVER['HTTP_HOST'] . "/WeiXin/Public/image/sample.jpg", "Url" => $_SERVER['HTTP_HOST'] . "/WeiXin/index.php/Home/CourseEvaluation/getCourse?stu_num=" . $stu_num);
-//                        echo transmitNews($object, $newsArray);
-//                        exit();
-//                    } else {
-//                        $contentStr = '请输入正确学好进行查询!';
-//                        echo transmitText($object, $contentStr);
-//                        exit();
-//                    }
-//                } else {
-//                    $contentStr = '1.输入"学号"查询成绩                2.输入"课程评价+学号"进行课程评价';
-//                    echo transmitText($object, $contentStr);
-//                    exit();
-//                }
+                $content = $object->Content;
+                $AC = new AccessController();
+                $result = $AC->search($content);
+                if ($result != '') {
+                    echo transmitText($object, $result);
+                    exit();
+                }
                 break;
             }
             case 'event': {
@@ -138,18 +145,10 @@ function catchEvent($object)
                     }
                     case 'CLICK': {
                         $key = $object->EventKey;
-                        if (checkMenuKey($key)) {
-                            //处理菜单点击事件
-                            $contentStr = switchMenuKey($key);
-                            if ($contentStr == 'joke') {
-                                $newsArray = array();
-                                $newsArray[] = array("Title" => "发送消息测试", "Description" => "通过Initial测试信息发送", "PicUrl" => 'http://' . $_SERVER['HTTP_HOST'] . "/CES/Public/image/sample.jpg", "Url" => $_SERVER['HTTP_HOST'] . "/CES/index.php/Home/GroupSend/sendTest?id=" . $OpenID);
-                                echo transmitNews($object, $newsArray);
-                                exit();
-                            }
-                            echo transmitText($object, actionByMenuKey($contentStr));
-                            exit();
-                        }
+                        $menu = new MenuController();
+                        $result = $menu->searchByMenuKey($key);
+                        echo transmitText($object, $result);
+                        exit();
                     }
                 }
                 break;
@@ -227,63 +226,4 @@ function logger($content)
     file_put_contents("log.html", date('Y-m-d H:i:s  ') . $content . "<br>", FILE_APPEND);
 }
 
-/**
- * @function 拆分菜单编码前缀
- * @param $key
- * @return bool
- */
-function checkMenuKey($key)
-{
-    if (substr($key, 0, strlen('menu_')) === 'menu_')
-        return true;
-    else
-        return false;
-}
-
-/**
- * @function 匹配菜单编码事件
- * @param $key
- * @return string
- */
-function actionByMenuKey($key)
-{
-    $contentStr = '';
-    switch (substr($key, 0, 7)) {
-        case 'weather':
-            $contentStr = '天气';
-            break;
-        case 'company':
-            $contentStr = '公司简介';
-            break;
-        case 'game_fu':
-            $contentStr = '游戏';
-            break;
-    }
-    return $contentStr;
-}
-
-/**
- * @function 拆分菜单编码
- * @param $key
- * @return string
- */
-function switchMenuKey($key)
-{
-    $message = substr($key, 5);
-    return $message;
-}
-
-class AccessController extends Controller
-{
-    public function access()
-    {
-        $wechatObj = new wechatCallbackapiTest();
-        if ($_GET['echostr']) {
-            $wechatObj->valid(); //如果发来了echostr则进行验证
-        } else {
-            $wechatObj->responseMsg(); //如果没有echostr，则返回消息
-        }
-    }
-
-}
 
