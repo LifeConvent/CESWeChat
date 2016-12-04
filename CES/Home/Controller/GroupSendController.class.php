@@ -110,7 +110,7 @@ class GroupSendController extends Controller
 //                $data->msg_id;
                         $result['status'] = 'success';
                     } else {
-                        $result['status'] = 'success';
+                        $result['status'] = 'failed';
                         $result['message'] = $data->errcode;
                     }
                     exit(json_encode($result));
