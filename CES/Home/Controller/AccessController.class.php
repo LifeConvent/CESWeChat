@@ -93,6 +93,20 @@ class AccessController extends Controller
         }
     }
 
+    public function searchSurvey($openid = null)
+    {
+        $survey_plan = M('survey_plan');
+//        $openid = 'ocoIvxLTumwc3gpi6SPvKWrzYlt0';
+        $condition['openid'] = "$openid";
+        $condition['is_finish'] = '0';
+        $result = $survey_plan->where($condition)->select();
+        if ($result) {
+            return $result;
+        } else {
+            return '';
+        }
+    }
+
 }
 
 
@@ -119,8 +133,21 @@ function catchEvent($object)
 
         switch ($object->MsgType) {
             case 'text': {
-                $content = $object->Content;
                 $AC = new AccessController();
+                $content = $object->Content;
+                if ($content == '课程评价') {
+                    $surveyArray = array();
+                    $survey = $AC->searchSurvey($OpenID);
+                    if ($survey != '') {
+                        for ($i = 0; $i < sizeof($survey); $i++) {
+                            $survey_id = $survey[$i]['survey_id'];
+                            $surveyArray[] = array("Title" => "您有新的课程评价问卷待完成", "Description" => "您有新的课程评价问卷待完成", "PicUrl" => 'http://' . $_SERVER['HTTP_HOST'] . "/CES/Public/image/sample.jpg", "Url" => $_SERVER['HTTP_HOST'] . "/CESBack/index.php/Home/SurveyPublish/surveyPublish?si=" . $survey_id . "&oi=" . $OpenID);
+                        }
+                        echo transmitNews($object, $surveyArray);
+                        exit();
+                    }
+                    break;
+                }
                 $result = $AC->search($content);
                 if ($result != '') {
                     echo transmitText($object, $result);

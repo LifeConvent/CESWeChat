@@ -5,7 +5,9 @@
     <title>首次登录-绑定个人信息</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0">
     <link rel="stylesheet" href="__PUBLIC__/css/bindStyle.css">
+    <link rel="stylesheet" href="__PUBLIC__/css/sco.message.css">
     <script src="__PUBLIC__/js/jquery-3.1.1.min.js" type="text/javascript"></script>
+    <script src="__PUBLIC__/js/sco.message.js" type="text/javascript"></script>
 </head>
 <script type="text/javascript">
     function bindUserInfo() {
@@ -15,13 +17,16 @@
         var stuNum = $('#stu_num').val();
         var stuPro = $('#stu_pro').val();
         if(stuName==''){
-            alert('姓名不能为空！');
+            $.scojs_message('姓名不能为空！', $.scojs_message.TYPE_ERROR);
+//            alert('姓名不能为空！');
             return;
         }else if(stuNum==''){
-            alert('学号不能为空！');
+            $.scojs_message('学号不能为空！', $.scojs_message.TYPE_ERROR);
+//            alert('学号不能为空！');
             return;
         }else if(stuPro==''){
-            alert('专业不能为空！');
+            $.scojs_message('专业不能为空！', $.scojs_message.TYPE_ERROR);
+//            alert('专业不能为空！');
             return;
         }
 
@@ -32,9 +37,11 @@
             data: {openid:openid,stu_name:stuName,stu_num:stuNum,stu_pro:stuPro},
             success: function (result) {
                 if (result.status == 'success') {
-                    alert(result.hint);
+                    $.scojs_message(result.hint, $.scojs_message.TYPE_OK);
+//                    alert(result.hint);
                 } else {
-                    alert(result.hint);
+                    $.scojs_message(result.hint, $.scojs_message.TYPE_ERROR);
+//                    alert(result.hint);
                 }
                 WeixinJSBridge.invoke('closeWindow',{},function(res){
                     //alert(res.err_msg);
