@@ -105,7 +105,7 @@ class UserManagerController extends Controller
                           ],
                           "tagid" : ' . $tagid . '
                         }';
-        $user_tags = $user_tags1.$user_tags2;
+        $user_tags = $user_tags1 . $user_tags2;
 
         $result = $upMenu->https_request($url, $user_tags);
         $data = new \stdClass();
@@ -119,6 +119,15 @@ class UserManagerController extends Controller
     public function addOpenInfo()
     {
         $OpenID = $_GET['id'];
+        $user = M('user');
+        $condition['openid'] = $OpenID;
+        $res = $user->field('stu_name')->where($condition)->select();
+        if ($res) {
+            $show = new ShowController();
+            $show->assign('stu_name', $res[0]['stu_name']);
+            $show->display('Show/show');
+            return;
+        }
         $this->assign('openid', $OpenID);
         $this->display();
     }
@@ -185,9 +194,14 @@ class UserManagerController extends Controller
             return false;
         }
         $temp['openid'] = "$OpenId";
+        $temp['is_match'] = '是';
         $condition['stu_num'] = "$stuNum";
         $result = $user->where($condition)->save($temp);//对象插入
         if ($result) {
+            $sur_plan = M('survey_plan');
+            $open['openid'] = "$OpenId";
+            $num['stu_num'] = "$stuNum";
+            $sur_plan->where($num)->save($open);
             return true;
         } else {
             return false;

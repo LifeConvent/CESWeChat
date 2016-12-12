@@ -5,7 +5,7 @@ return array(
     'DB_HOST'=>'localhost',
     'DB_NAME'=>'CES',
     'DB_USER'=>'root',
-    'DB_PWD'=>'123456',
+    'DB_PWD'=>'scce317ces/back.',
     // 'DB_PORT'=>,
     'DB_PREFIX'=>'tb_',
     'DB_CHARSET'=>'utf8',

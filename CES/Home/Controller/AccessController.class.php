@@ -107,6 +107,18 @@ class AccessController extends Controller
         }
     }
 
+    public function output($object)
+    {
+        $text = "请按照以下提示输入获取信息:\n1.  输入 \"课程评价\" 获取课程评价问卷\n";
+        $auto = M('auto_response');
+        $res = $auto->field('user_input')->select();
+        for ($i = 0; $i < sizeof($res); $i++) {
+            $text .= (($i + 2) . ".  输入 \"" . $res[$i]['user_input'] . "\" \n");
+        }
+//        dump($text);
+        echo transmitText($object, $text);
+    }
+
 }
 
 
@@ -139,11 +151,11 @@ function catchEvent($object)
                     $surveyArray = array();
                     $survey = $AC->searchSurvey($OpenID);
                     if ($survey != '') {
-                        for ($i = 0; $i < sizeof($survey); $i++) {
-                            $survey_id = $survey[$i]['survey_id'];
-                            $surveyArray[] = array("Title" => "您有新的课程评价问卷待完成", "Description" => "您有新的课程评价问卷待完成", "PicUrl" => 'http://' . $_SERVER['HTTP_HOST'] . "/CES/Public/image/sample.jpg", "Url" => $_SERVER['HTTP_HOST'] . "/CESBack/index.php/Home/SurveyPublish/surveyPublish?si=" . $survey_id . "&oi=" . $OpenID);
-                        }
+                        $surveyArray[] = array("Title" => "您有新的课程评价问卷待完成", "Description" => "您有新的课程评价问卷待完成", "PicUrl" => 'http://' . $_SERVER['HTTP_HOST'] . "/CES/Public/image/sample.jpg", "Url" => $_SERVER['HTTP_HOST'] . "/CESBack/index.php/Home/SurveyPublish/surPubBef?oi=" . $OpenID);
                         echo transmitNews($object, $surveyArray);
+                        exit();
+                    } else {
+                        echo transmitText($object, '您已完成所有课程评价问卷');
                         exit();
                     }
                     break;
@@ -151,6 +163,9 @@ function catchEvent($object)
                 $result = $AC->search($content);
                 if ($result != '') {
                     echo transmitText($object, $result);
+                    exit();
+                } else {
+                    $AC->output($object);
                     exit();
                 }
                 break;
