@@ -36,11 +36,11 @@ class MenuController extends Controller
     public function upMenuList($menu = null)
     {
         if ($menu == null) {
-            $menu = $_POST['menu'];
+            $menu = I('post.menu');
         }
 
-        if ($_POST['data'] != '') {
-            $contentSQL = $_POST['data'];
+        if (I('post.data') != '') {
+            $contentSQL = I('post.data');
             for ($i = 0; $i < sizeof($contentSQL); $i++) {
                 $jsonObject = new \stdClass();
                 $jsonObject = json_decode($contentSQL[$i]);
@@ -113,7 +113,8 @@ class MenuController extends Controller
         }
     }
 
-    public function searchByMenuKey($key){
+    public function searchByMenuKey($key)
+    {
         $key2content = M('menu_content');
         $condition['keyid'] = "$key";
 

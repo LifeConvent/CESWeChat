@@ -21,8 +21,8 @@ class UploaderController extends Controller
         $upMenu = new MenuController();
         $access_token = $upMenu->getAccessToken();
         //文件类型问题(获取文件类型后缀添加在url中)
-        $file_type = $_GET['type'];
-        $filename = $_GET['file'] . '.' . $file_type;
+        $file_type = I('get.type');
+        $filename = I('get.file') . '.' . $file_type;
         $type = 'image';
         //文件地址
         $filedata = $this->getAbsolutePath($filename);
@@ -44,8 +44,8 @@ class UploaderController extends Controller
         $upMenu = new MenuController();
         $access_token = $upMenu->getAccessToken();
         //文件类型问题(获取文件类型后缀添加在url中)
-        $file_type = $_GET['type'];
-        $filename = $_GET['file'] . '.' . $file_type;
+        $file_type = I('get.type');
+        $filename = I('get.file') . '.' . $file_type;
         $type = 'thumb';
         //文件地址
         $filedata = $this->getAbsolutePath($filename);

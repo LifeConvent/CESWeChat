@@ -23,8 +23,8 @@ class UserManagerController extends Controller
     public function uploaderSetTag($tag = null)
     {
         if ($tag == null) {
-            $tag = $_POST['tag'];
-//            $tag = $_GET['tag'];
+            $tag = I('post.tag');
+//            $tag = I('get.tag');
         }
         $upMenu = new MenuController();
         $access_token = $upMenu->getAccessToken();
@@ -68,8 +68,8 @@ class UserManagerController extends Controller
     public function setTagUser($tagid = null, $userid = null)
     {
         if ($tagid == null || $userid == null) {
-            $tag = $_POST['tag'];
-            $tag = $_POST['userid'];
+            $tag = I('post.tag');
+            $userid = I('post.userid');
         }
         $upMenu = new MenuController();
         $access_token = $upMenu->getAccessToken();
@@ -118,7 +118,7 @@ class UserManagerController extends Controller
 
     public function addOpenInfo()
     {
-        $OpenID = $_GET['id'];
+        $OpenID = I('get.id');
         $user = M('user');
         $condition['openid'] = $OpenID;
         $res = $user->field('stu_name')->where($condition)->select();
@@ -134,10 +134,10 @@ class UserManagerController extends Controller
 
     public function bindUserInfo()
     {
-        $OpenId = $_POST['openid'];
-        $stuName = $_POST['stu_name'];
-        $stuNum = $_POST['stu_num'];
-        $stuPro = $_POST['stu_pro'];
+        $OpenId = I('post.openid');
+        $stuName = I('post.stu_name');
+        $stuNum = I('post.stu_num');
+        $stuPro = I('post.stu_pro');
         //能进入绑定界面的即认为为绑定的人员信息，直接进行绑定
         $res = $this->checkUserInfo($stuName, $stuNum, $stuPro);
         if ($res == '1') {

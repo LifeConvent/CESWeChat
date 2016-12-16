@@ -22,17 +22,17 @@ class GroupSendController extends Controller
      * @param null $type 群发消息类型 text、mpnews 其它暂未开放
      * @param null $content 文字消息内容
      * @param null $media_id 图文消息媒体id号，需提前获得
-     * @return bool 成功发送时返回true
+     * @return bool 成功发送时返回trueF
      */
     public function allSendNews($toAll = true, $tagID = null, $type = null, $content = null, $media_id = null, $openid = null)
     {
-        if ($_POST['ispost'] == '1') {
-            $toAll = $_POST['toall'];
-            $tagID = $_POST['tagid'];
-            $type = $_POST['type'];
-            $content = $_POST['content'];
-            $media_id = $_POST['mediaid'];
-            $openid = $_POST['openid'];
+        if (I('post.ispost') == '1') {
+            $toAll = I('post.toall');
+            $tagID = I('post.tagid');
+            $type = I('post.type');
+            $content = I('post.content');
+            $media_id = I('post.mediaid');
+            $openid = I('post.openid');
         }
         if ($openid != null) {
             $toAll = false;
@@ -174,8 +174,8 @@ class GroupSendController extends Controller
      */
     public function sendTextPreview()
     {
-        $openid = $_POST['openid'];
-        $content = $_POST['content'];
+        $openid = I('post.openid');
+        $content = I('post.content');
 
         if ($content == null || $openid == null) {
             $result['status'] = 'failed';
@@ -215,8 +215,8 @@ class GroupSendController extends Controller
      */
     public function sendTextArray()
     {
-        $userid = $_POST['initial'];
-        $content = $_POST['content'];
+        $userid = I('post.initial');
+        $content = I('post.content');
 
         $useridList = array();
         if (!is_array($userid)) {
@@ -255,8 +255,8 @@ class GroupSendController extends Controller
     {
         if ($userid == null || $content == null) {
             //第二种方式，从url获取
-            $userid = $_POST['userid'];
-            $content = $_POST['content'];
+            $userid = I('post.userid');
+            $content = I('post.content');
         }
 
 //        dump($userid);
@@ -336,7 +336,7 @@ class GroupSendController extends Controller
 
     public function sendTest()
     {
-        $OpenID = $_GET['id'];
+        $OpenID = I('get.id');
         $this->assign('openid', $OpenID);
         $this->display();
     }
