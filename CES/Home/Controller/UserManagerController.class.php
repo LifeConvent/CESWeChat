@@ -141,18 +141,23 @@ class UserManagerController extends Controller
         //能进入绑定界面的即认为为绑定的人员信息，直接进行绑定
         $res = $this->checkUserInfo($stuName, $stuNum, $stuPro);
         if ($res == '1') {
-            if (!$this->searchUserByOpenID($OpenId)) {
-                $res = $this->updateUserInfo($OpenId, $stuNum);
-                if ($res) {
-                    $result['status'] = 'success';
-                    $result['hint'] = '绑定成功！';
+            if (!($this->searchUserByOpenID($OpenId))) {
+                if (!$this->searchUserOpenIDByNum($stuNum)) {
+                    $res = $this->updateUserInfo($OpenId, $stuNum);
+                    if ($res) {
+                        $result['status'] = 'success';
+                        $result['hint'] = '绑定成功！';
+                    } else {
+                        $result['status'] = 'failed';
+                        $result['hint'] = '绑定失败！';
+                    }
                 } else {
                     $result['status'] = 'failed';
-                    $result['hint'] = '绑定失败！';
+                    $result['hint'] = '该用户已绑定微信号，无需重复绑定！';
                 }
             } else {
                 $result['status'] = 'failed';
-                $result['hint'] = '用户已绑定，无需重复绑定！';
+                $result['hint'] = '该微信号已绑定用户，不能重复绑定！';
             }
         } else if ($res == '0') {
             $result['status'] = 'failed';
@@ -221,6 +226,32 @@ class UserManagerController extends Controller
         } else {
             return false;
         }
+    }
+
+    public function searchUserOpenIDByNum($stuNum = null)
+    {
+        $user = M('user');//实例化user_info表模型对象
+        $condition['stu_num'] = "$stuNum";
+        $res = $user->field('openid')->where($condition)->find();//对象查询
+        if ($res['openid'] != '' && $res['openid'] != 'NULL' && $res['openid'] != null) {
+            return true;
+        }
+        return false;
+    }
+
+
+    public function write($userid = null, $content = null)
+    {
+        $myfile = fopen("Public/file/" . $userid . ".txt", "wb") or die("Unable to open file!");
+        file_put_contents("Public/file/" . $userid . ".txt", $content);
+        fclose($myfile);
+    }
+
+    public function read($userid = null)
+    {
+        $userid = 'test';
+        $result = file_get_contents("Public/file/" . $userid . ".txt");
+        return $result;
     }
 
     public function searchUserNameByOpenID($OpenID = null)
