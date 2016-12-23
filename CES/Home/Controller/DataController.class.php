@@ -8,13 +8,12 @@
 
 namespace Home\Controller;
 
+use Org\Util\Date;
 use Think\Controller;
 use Think\Model;
 
 class DataController extends Controller
 {
-
-//   news 39BFnXiz_zuHfo2Y8qvkjQqe6rqxsGfs1Uuc8bLqrmhskUWPJdZ4Rw3G9zJ9ou7z
     public $data = '{
                         "articles": [
                                 {
@@ -139,4 +138,134 @@ class DataController extends Controller
                                 "msgtype": "text",
                                 "text": { "content": "请您获知."}
                             }';
+
+
+    /**
+     * 后台系统隔天自动调用添加更新前一天的数据统计
+     **/
+    public function underUpdate()
+    {
+        $menu = new MenuController();
+        $access_token = $menu->getAccessToken();
+
+//        https://api.weixin.qq.com/datacube/getusersummary?access_token=ACCESS_TOKEN
+//        {
+//            "list":[
+//                {
+//                    "ref_date":"2016-12-17",
+//                    "user_source":0,
+//                    "new_user":0,
+//                    "cancel_user":0
+//                },
+//                {
+//                    "ref_date":"2016-12-17",
+//                    "user_source":30,
+//                    "new_user":1,
+//                    "cancel_user":0
+//                }
+//            ]
+//        }
+        $url = "https://api.weixin.qq.com/datacube/getusersummary?access_token=" . $access_token;
+        $time = time() - 60 * 60 * 24;
+        $t_e = date("Y-m-d", $time);
+        $time = time() - 60 * 60 * 24;
+        $t_r = date("Y-m-d", $time);
+        $data = '{"begin_date": "' . $t_r . '","end_date": "' . $t_e . '"}';
+        echo $data;
+        $result = $menu->https_request($url, $data);
+        //对返回结果的处理
+        echo json_decode($result);
+        $data = new \stdClass();
+        $data = json_decode($result);
+        $dataList = $data->list;
+
+        //时间
+        $new_time = $dataList[0]->ref_date;
+        //新增人数
+        $new_user = $dataList[0]->new_user;
+
+
+        if ($data->errcode) {
+            $temp['status_new'] = 'failed';
+            $temp['message_new'] = $data->errcode;
+        } else {
+            $temp['status_new'] = 'success';
+        }
+
+//        https://api.weixin.qq.com/datacube/getusercumulate?access_token=ACCESS_TOKEN
+//        {
+//            "list": [
+//                {
+//                    "ref_date": "2014-12-07",
+//                    "cumulate_user": 1217056
+//                }, {
+//        }]}
+        $url = "https://api.weixin.qq.com/datacube/getusercumulate?access_token=" . $access_token;
+
+        $result = $menu->https_request($url, $data);
+
+        $data = new \stdClass();
+        $data = json_decode($result);
+        $dataList = $data->list;
+
+        //时间
+        $all_time = $dataList[0]->ref_date;
+        //当前总数
+        $all_num = $dataList[0]->cumulate_user;
+
+        $condition['time'] = $new_time;
+        $condition['new'] = $new_user;
+        $condition['all_user'] = $all_num;
+
+        $condition['survey'] = $this->getTotalSurvey();
+        $condition['is_match'] = $this->getTotalUser();
+
+        if (!$data->errcode) {
+            $temp['status_all'] = 'failed';
+            $temp['message_all'] = $data->errcode;
+        } else {
+            $temp['status_all'] = 'success';
+            $home_count = M('home_count');
+            $con['time'] = "$new_time";
+            $res_b = $home_count->where($con)->select();
+            if (!$res_b) {
+                $res = $home_count->add($condition);
+                if ($res) {
+                    $temp['insert'] = 'success';
+                } else {
+                    $temp['insert'] = 'failed';
+                }
+            } else {
+                $temp['insert'] = 'failed';
+            }
+        }
+        exit(json_encode($temp));
+    }
+
+    public function getTotalUser()
+    {
+        $user = M();
+        $result = $user->where('openid!=\'NULL\'')
+            ->table('tb_user')
+            ->field('count(*)')
+            ->query('SELECT %FIELD% AS total FROM %TABLE% %WHERE%', true);
+        if ($result) {
+            return $result[0]['total'];
+        } else {
+            return 0;
+        }
+    }
+
+    public function getTotalSurvey()
+    {
+        $user = M();
+        $result = $user->table('tb_survey_plan')
+            ->field('count(*)')
+            ->query('SELECT %FIELD% AS total FROM %TABLE%', true);
+        if ($result) {
+            return $result[0]['total'];
+        } else {
+            return 0;
+        }
+    }
 }
