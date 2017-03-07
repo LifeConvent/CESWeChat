@@ -1,0 +1,156 @@
+[ 2017-02-20T14:11:34+08:00 ] 127.0.0.1 /CES/index.php/Home/Access/access?signature=a87e301115306ee3c55ca93885e5088d86396d40&echostr=2723212350972737726&timestamp=1487571094&nonce=1726002095
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000621s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000606s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000643s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /Users/lawrance/Data/CES/ThinkPHP/Common/functions.php 第 1263 行.
+
+[ 2017-02-20T14:11:43+08:00 ] 127.0.0.1 /CES/index.php/Home/Access/access
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000221s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000246s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000275s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /Users/lawrance/Data/CES/ThinkPHP/Common/functions.php 第 1263 行.
+NOTIC: [8] Undefined index: echostr /Users/lawrance/Data/CES/CES/Home/Controller/AccessController.class.php 第 77 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001643s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001673s ]
+
+[ 2017-02-20T14:12:25+08:00 ] 127.0.0.1 /CES/index.php/Home/Access/access?signature=b8de83e2f27406bc0e48b52caa8e4f600d3a4680&echostr=3595010134129757899&timestamp=1487571145&nonce=1950036620
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000224s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000239s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000260s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /Users/lawrance/Data/CES/ThinkPHP/Common/functions.php 第 1263 行.
+
+[ 2017-02-20T14:12:43+08:00 ] 127.0.0.1 /CES/index.php/Home/Access/access?signature=c0b6aac0b75e100d9d9553f18d94b05900816015&timestamp=1487571163&nonce=831850532&openid=ocoIvxLTumwc3gpi6SPvKWrzYlt0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000165s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000234s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000253s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /Users/lawrance/Data/CES/ThinkPHP/Common/functions.php 第 1263 行.
+NOTIC: [8] Undefined index: echostr /Users/lawrance/Data/CES/CES/Home/Controller/AccessController.class.php 第 77 行.
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `tb_user` WHERE `openid` = 'ocoIvxLTumwc3gpi6SPvKWrzYlt0' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tb_auto_response` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `tb_auto_response` WHERE `user_input` = '测试' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-02-20T14:13:04+08:00 ] 127.0.0.1 /CES/index.php/Home/Access/access?signature=776f3b1c3029bb5974934396391b9fa5f6441153&timestamp=1487571185&nonce=1257414874&openid=ocoIvxLTumwc3gpi6SPvKWrzYlt0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000212s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000232s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000252s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /Users/lawrance/Data/CES/ThinkPHP/Common/functions.php 第 1263 行.
+NOTIC: [8] Undefined index: echostr /Users/lawrance/Data/CES/CES/Home/Controller/AccessController.class.php 第 77 行.
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `tb_user` WHERE `openid` = 'ocoIvxLTumwc3gpi6SPvKWrzYlt0' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `tb_menu_content` [ RunTime:0.0009s ]
+SQL: SELECT `content` FROM `tb_menu_content` WHERE `keyid` = 'PjaM21479188229000' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-02-20T14:13:05+08:00 ] 127.0.0.1 /CES/index.php/Home/Access/access?signature=5403a9f88a2c5460b7a45b61b682c3590911fd50&timestamp=1487571186&nonce=458690929&openid=ocoIvxLTumwc3gpi6SPvKWrzYlt0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000197s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000231s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000252s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /Users/lawrance/Data/CES/ThinkPHP/Common/functions.php 第 1263 行.
+NOTIC: [8] Undefined index: echostr /Users/lawrance/Data/CES/CES/Home/Controller/AccessController.class.php 第 77 行.
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `tb_user` WHERE `openid` = 'ocoIvxLTumwc3gpi6SPvKWrzYlt0' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `tb_menu_content` [ RunTime:0.0009s ]
+SQL: SELECT `content` FROM `tb_menu_content` WHERE `keyid` = 'fAiNC1479188229000' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2017-02-20T14:14:55+08:00 ] 127.0.0.1 /CES/index.php/Home/Access/access?signature=148b72a14387b68b7bc7eed6c4df918e1289f1be&timestamp=1487571290&nonce=1873183801&openid=ocoIvxLTumwc3gpi6SPvKWrzYlt0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000441s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000446s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000474s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /Users/lawrance/Data/CES/ThinkPHP/Common/functions.php 第 1263 行.
+NOTIC: [8] Undefined index: echostr /Users/lawrance/Data/CES/CES/Home/Controller/AccessController.class.php 第 77 行.
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `tb_user` WHERE `openid` = 'ocoIvxLTumwc3gpi6SPvKWrzYlt0' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tb_survey_plan` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tb_survey_plan` WHERE `openid` = 'ocoIvxLTumwc3gpi6SPvKWrzYlt0' AND `is_finish` = '0'  [ RunTime:0.0003s ]
+
+[ 2017-02-20T14:14:55+08:00 ] 127.0.0.1 /CES/index.php/Home/Access/access?signature=148b72a14387b68b7bc7eed6c4df918e1289f1be&timestamp=1487571290&nonce=1873183801&openid=ocoIvxLTumwc3gpi6SPvKWrzYlt0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000467s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000392s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000417s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /Users/lawrance/Data/CES/ThinkPHP/Common/functions.php 第 1263 行.
+NOTIC: [8] Undefined index: echostr /Users/lawrance/Data/CES/CES/Home/Controller/AccessController.class.php 第 77 行.
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tb_user` WHERE `openid` = 'ocoIvxLTumwc3gpi6SPvKWrzYlt0' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tb_survey_plan` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `tb_survey_plan` WHERE `openid` = 'ocoIvxLTumwc3gpi6SPvKWrzYlt0' AND `is_finish` = '0'  [ RunTime:0.0002s ]
+
+[ 2017-02-20T14:15:05+08:00 ] 127.0.0.1 /CES/index.php/Home/Access/access
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000233s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000248s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000268s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /Users/lawrance/Data/CES/ThinkPHP/Common/functions.php 第 1263 行.
+NOTIC: [8] Undefined index: echostr /Users/lawrance/Data/CES/CES/Home/Controller/AccessController.class.php 第 77 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001549s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001580s ]
+
+[ 2017-02-20T14:15:47+08:00 ] 127.0.0.1 /CES/index.php/Home/Access/access?signature=58446a2e7a8648bd3e6ee737fa1e359b39ac078d&timestamp=1487571348&nonce=671250507&openid=ocoIvxLTumwc3gpi6SPvKWrzYlt0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000456s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000522s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000561s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /Users/lawrance/Data/CES/ThinkPHP/Common/functions.php 第 1263 行.
+NOTIC: [8] Undefined index: echostr /Users/lawrance/Data/CES/CES/Home/Controller/AccessController.class.php 第 77 行.
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `tb_user` WHERE `openid` = 'ocoIvxLTumwc3gpi6SPvKWrzYlt0' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `tb_survey_plan` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `tb_survey_plan` WHERE `openid` = 'ocoIvxLTumwc3gpi6SPvKWrzYlt0' AND `is_finish` = '0'  [ RunTime:0.0002s ]
+
+[ 2017-02-20T14:54:15+08:00 ] 127.0.0.1 /CES/index.php/Home/Access/access?signature=bee8d548faac4160e0391836b58122dbd55811a8&timestamp=1487573655&nonce=947059715&openid=ocoIvxLTumwc3gpi6SPvKWrzYlt0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000432s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000979s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001029s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /Users/lawrance/Data/CES/ThinkPHP/Common/functions.php 第 1263 行.
+NOTIC: [8] Undefined index: echostr /Users/lawrance/Data/CES/CES/Home/Controller/AccessController.class.php 第 77 行.
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `tb_user` WHERE `openid` = 'ocoIvxLTumwc3gpi6SPvKWrzYlt0' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tb_survey_plan` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `tb_survey_plan` WHERE `openid` = 'ocoIvxLTumwc3gpi6SPvKWrzYlt0' AND `is_finish` = '0'  [ RunTime:0.0004s ]
+
+[ 2017-02-20T14:56:00+08:00 ] 127.0.0.1 /CES/index.php/Home/Access/access?signature=5b3e5ff8f2fb5172c803f0ffe073221f6aa2a19b&timestamp=1487573760&nonce=2083788509&openid=ocoIvxLTumwc3gpi6SPvKWrzYlt0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000230s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000258s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000280s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /Users/lawrance/Data/CES/ThinkPHP/Common/functions.php 第 1263 行.
+NOTIC: [8] Undefined index: echostr /Users/lawrance/Data/CES/CES/Home/Controller/AccessController.class.php 第 77 行.
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `tb_user` WHERE `openid` = 'ocoIvxLTumwc3gpi6SPvKWrzYlt0' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `tb_survey_plan` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `tb_survey_plan` WHERE `openid` = 'ocoIvxLTumwc3gpi6SPvKWrzYlt0' AND `is_finish` = '0'  [ RunTime:0.0002s ]
+

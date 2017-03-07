@@ -166,18 +166,38 @@ class DataController extends Controller
 //            ]
 //        }
         $url = "https://api.weixin.qq.com/datacube/getusersummary?access_token=" . $access_token;
+        //日期最好调用一天的
         $time = time() - 60 * 60 * 24;
         $t_e = date("Y-m-d", $time);
-        $time = time() - 60 * 60 * 24;
+        $time = time() - 60 * 60 * 24 * 2;
         $t_r = date("Y-m-d", $time);
         $data = '{"begin_date": "' . $t_r . '","end_date": "' . $t_e . '"}';
         echo $data;
         $result = $menu->https_request($url, $data);
+//        $result = ' {
+//            "list":[
+//                {
+//                    "ref_date":"2016-12-07",
+//                    "user_source":0,
+//                    "new_user":0,
+//                    "cancel_user":0
+//                },
+//                {
+//                    "ref_date":"2016-12-07",
+//                    "user_source":30,
+//                    "new_user":1,
+//                    "cancel_user":0
+//                }
+//            ]
+//        }';
+//        dump($result);
         //对返回结果的处理
+
         echo json_decode($result);
         $data = new \stdClass();
         $data = json_decode($result);
         $dataList = $data->list;
+
 
         //时间
         $new_time = $dataList[0]->ref_date;
@@ -185,7 +205,7 @@ class DataController extends Controller
         $new_user = $dataList[0]->new_user;
 
 
-        if ($data->errcode) {
+        if ($data->errcode!=null) {
             $temp['status_new'] = 'failed';
             $temp['message_new'] = $data->errcode;
         } else {
@@ -203,6 +223,15 @@ class DataController extends Controller
         $url = "https://api.weixin.qq.com/datacube/getusercumulate?access_token=" . $access_token;
 
         $result = $menu->https_request($url, $data);
+//        $result = '{
+//            "list": [
+//                {
+//                    "ref_date": "2014-12-07",
+//                    "cumulate_user": 1217056
+//                }, {
+//        }]}';
+//
+//        dump($result);
 
         $data = new \stdClass();
         $data = json_decode($result);
@@ -220,7 +249,7 @@ class DataController extends Controller
         $condition['survey'] = $this->getTotalSurvey();
         $condition['is_match'] = $this->getTotalUser();
 
-        if (!$data->errcode) {
+        if ($data->errcode!=null) {
             $temp['status_all'] = 'failed';
             $temp['message_all'] = $data->errcode;
         } else {
@@ -228,7 +257,9 @@ class DataController extends Controller
             $home_count = M('home_count');
             $con['time'] = "$new_time";
             $res_b = $home_count->where($con)->select();
+            dump($res_b);
             if (!$res_b) {
+                dump($condition);
                 $res = $home_count->add($condition);
                 if ($res) {
                     $temp['insert'] = 'success';

@@ -1,0 +1,96 @@
+[ 2016-11-24T17:22:54+08:00 ] ::1 /CES/index.php/Home/SetAutoRes/setRes
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000444s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000884s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000935s ]
+SQL: SHOW COLUMNS FROM `tb_auto_response` [ RunTime:0.0014s ]
+SQL: INSERT INTO `tb_auto_response` (`user_input`,`sys_response`) VALUES ('测试','在测试') [ RunTime:0.0240s ]
+
+[ 2016-11-24T17:23:15+08:00 ] ::1 /CES/index.php/Home/SetAutoRes/setRes
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000251s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000261s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000288s ]
+SQL: SHOW COLUMNS FROM `tb_auto_response` [ RunTime:0.0035s ]
+ERR: 1062:Duplicate entry '测试' for key 'user_input'
+ [ SQL语句 ] : INSERT INTO `tb_auto_response` (`user_input`,`sys_response`) VALUES ('测试','知道你在测试')
+ERR: 1062:Duplicate entry '测试' for key 'user_input'
+ [ SQL语句 ] : INSERT INTO `tb_auto_response` (`user_input`,`sys_response`) VALUES ('测试','知道你在测试')
+
+[ 2016-11-24T17:23:23+08:00 ] ::1 /CES/index.php/Home/SetAutoRes/setRes
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000258s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000280s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000309s ]
+SQL: SHOW COLUMNS FROM `tb_auto_response` [ RunTime:0.0020s ]
+ERR: 1062:Duplicate entry '测试' for key 'user_input'
+ [ SQL语句 ] : INSERT INTO `tb_auto_response` (`user_input`,`sys_response`) VALUES ('测试','知道你在测试')
+ERR: 1062:Duplicate entry '测试' for key 'user_input'
+ [ SQL语句 ] : INSERT INTO `tb_auto_response` (`user_input`,`sys_response`) VALUES ('测试','知道你在测试')
+
+[ 2016-11-24T17:24:30+08:00 ] ::1 /CES/index.php/Home/SetAutoRes/setRes
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000349s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000376s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000418s ]
+
+[ 2016-11-24T17:25:25+08:00 ] ::1 /CES/index.php/Home/SetAutoRes/setRes
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000265s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000278s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000306s ]
+SQL: SHOW COLUMNS FROM `tb_auto_response` [ RunTime:0.0021s ]
+ERR: 1062:Duplicate entry '测试' for key 'user_input'
+ [ SQL语句 ] : INSERT INTO `tb_auto_response` (`user_input`,`sys_response`) VALUES ('测试','知道你在测试')
+ERR: 1062:Duplicate entry '测试' for key 'user_input'
+ [ SQL语句 ] : INSERT INTO `tb_auto_response` (`user_input`,`sys_response`) VALUES ('测试','知道你在测试')
+
+[ 2016-11-24T17:25:41+08:00 ] ::1 /CES/index.php/Home/SetAutoRes/setRes
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000290s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000400s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000445s ]
+SQL: SHOW COLUMNS FROM `tb_auto_response` [ RunTime:0.0034s ]
+
+[ 2016-11-24T17:26:04+08:00 ] ::1 /CES/index.php/Home/SetAutoRes/setRes
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000310s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000314s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000347s ]
+SQL: SHOW COLUMNS FROM `tb_auto_response` [ RunTime:0.0019s ]
+SQL: INSERT INTO `tb_auto_response` (`user_input`,`sys_response`) VALUES ('测试啊','知道你在测试') [ RunTime:0.0009s ]
+
+[ 2016-11-24T17:29:15+08:00 ] ::1 /CES/index.php/Home/SetAutoRes/setRes
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000249s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000230s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000251s ]
+SQL: SHOW COLUMNS FROM `tb_auto_response` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `tb_auto_response` WHERE `user_input` = '测试啊'  [ RunTime:0.0003s ]
+
+[ 2016-11-24T17:30:39+08:00 ] ::1 /CES/index.php/Home/SetAutoRes/setRes
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000173s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000206s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000222s ]
+SQL: SHOW COLUMNS FROM `tb_auto_response` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `tb_auto_response` WHERE `user_input` = '测试'  [ RunTime:0.0002s ]
+

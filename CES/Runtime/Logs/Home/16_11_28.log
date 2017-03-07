@@ -1,0 +1,77 @@
+[ 2016-11-28T09:09:31+08:00 ] 127.0.0.1 /CES/index.php/Home/Access/access?signature=66796f92621cfec5cc3ed34073ba3c002d16a1d1&echostr=3935627871447142346&timestamp=1480295370&nonce=139964331
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000583s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000655s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000692s ]
+
+[ 2016-11-28T09:11:25+08:00 ] 127.0.0.1 /CES/index.php/Home/Access/access?signature=fe783352be3a97a16fe9e7bae358aaf7b9e664e9&timestamp=1480295484&nonce=1042415151&openid=ocoIvxLTumwc3gpi6SPvKWrzYlt0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000313s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000360s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000392s ]
+NOTIC: [8] Undefined index: echostr /Users/lawrance/Data/CES/CES/Home/Controller/AccessController.class.php 第 77 行.
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `tb_user` WHERE `openid` = 'ocoIvxLTumwc3gpi6SPvKWrzYlt0' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `tb_auto_response` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `tb_auto_response` WHERE `user_input` = '新闻' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-11-28T16:00:46+08:00 ] 127.0.0.1 /CES/index.php/Home/Access/access?signature=3f9a867ce9e335304e8381512328809bdb5e94dd&timestamp=1480320046&nonce=215514807&openid=ocoIvxMjfmr1eYXcR82PxsoslB14
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000702s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001445s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001505s ]
+NOTIC: [8] Undefined index: echostr /Users/lawrance/Data/CES/CES/Home/Controller/AccessController.class.php 第 77 行.
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0098s ]
+SQL: SELECT * FROM `tb_user` WHERE `openid` = 'ocoIvxMjfmr1eYXcR82PxsoslB14' LIMIT 1   [ RunTime:0.0035s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001048s ]
+
+[ 2016-11-28T17:07:58+08:00 ] 127.0.0.1 /CES/index.php/Home/Access/access?signature=582b5d88b2fe99a20751f8502f83e2741acff321&timestamp=1480324073&nonce=40720928&openid=ocoIvxAOkFfEpGTKFmqm2_nuywlo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000489s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001161s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001200s ]
+NOTIC: [8] Undefined index: echostr /Users/lawrance/Data/CES/CES/Home/Controller/AccessController.class.php 第 77 行.
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `tb_user` WHERE `openid` = 'ocoIvxAOkFfEpGTKFmqm2_nuywlo' LIMIT 1   [ RunTime:0.0021s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000867s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000903s ]
+
+[ 2016-11-28T17:08:03+08:00 ] 127.0.0.1 /CES/index.php/Home/Access/access?signature=582b5d88b2fe99a20751f8502f83e2741acff321&timestamp=1480324073&nonce=40720928&openid=ocoIvxAOkFfEpGTKFmqm2_nuywlo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000202s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000248s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000266s ]
+NOTIC: [8] Undefined index: echostr /Users/lawrance/Data/CES/CES/Home/Controller/AccessController.class.php 第 77 行.
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `tb_user` WHERE `openid` = 'ocoIvxAOkFfEpGTKFmqm2_nuywlo' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000900s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000986s ]
+
+[ 2016-11-28T17:08:03+08:00 ] 127.0.0.1 /CES/index.php/Home/Access/access?signature=582b5d88b2fe99a20751f8502f83e2741acff321&timestamp=1480324073&nonce=40720928&openid=ocoIvxAOkFfEpGTKFmqm2_nuywlo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000201s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000279s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000319s ]
+NOTIC: [8] Undefined index: echostr /Users/lawrance/Data/CES/CES/Home/Controller/AccessController.class.php 第 77 行.
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `tb_user` WHERE `openid` = 'ocoIvxAOkFfEpGTKFmqm2_nuywlo' LIMIT 1   [ RunTime:0.0063s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000332s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000351s ]
+

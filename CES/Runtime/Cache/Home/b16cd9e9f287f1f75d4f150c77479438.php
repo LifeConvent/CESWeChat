@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -8,7 +8,7 @@
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
     <meta name="description" content="">
-    <script src="__PUBLIC__/js/jquery-3.1.1.min.js" type="text/javascript"></script>
+    <script src="/CES/Public/js/jquery-3.1.1.min.js" type="text/javascript"></script>
     <!--<script src="../../../../Public/js/jquery-3.1.1.min.js" type="text/javascript"></script>-->
 </head>
 <script type="text/javascript">
@@ -26,7 +26,7 @@
 
         $.ajax({
             type: "POST", //用POST方式传输
-            url: "{:U('Home/GroupSend/sendTextArray')}", //目标地址.
+            url: "<?php echo U('Home/GroupSend/sendTextArray');?>", //目标地址.
             dataType: "JSON", //数据格式:JSON
             data: {content:openid,initial:initial},
             success: function (result) {
@@ -61,7 +61,7 @@
 
         $.ajax({
             type: "POST", //用POST方式传输
-            url: "{:U('Home/GroupSend/sendTextArray')}", //目标地址.
+            url: "<?php echo U('Home/GroupSend/sendTextArray');?>", //目标地址.
             dataType: "JSON", //数据格式:JSON
             data: {content:openid,initial:arrInitial},
             success: function (result) {
@@ -76,7 +76,7 @@
 </script>
 <body>
 
-<span id="openid" style="display:none">{$openid}</span>
+<span id="openid" style="display:none"><?php echo ($openid); ?></span>
 <input id="initial" type="text" name="initial" placeholder="输入initial" ／>
 <input id="initial1" type="text" name="initial1" placeholder="输入多initial" ／>
 <input id="initial2" type="text" name="initial2" placeholder="输入多initial" ／>

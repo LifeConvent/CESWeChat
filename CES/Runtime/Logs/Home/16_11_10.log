@@ -1,0 +1,581 @@
+[ 2016-11-10T22:22:00+08:00 ] ::1 /CES/index.php/Home/Menu/upMenuList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001142s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001296s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001349s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001245s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001307s ]
+
+[ 2016-11-10T22:22:46+08:00 ] ::1 /CES/index.php/Home/Menu/upMenuList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000236s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000258s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000283s ]
+NOTIC: [8] Undefined index: menu /Users/lawrance/Data/CES/CES/Home/Controller/MenuController.class.php 第 39 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000612s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000660s ]
+
+[ 2016-11-10T22:24:01+08:00 ] ::1 /CES/index.php/Home/Menu/upMenuList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000564s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000593s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000634s ]
+
+[ 2016-11-10T22:28:15+08:00 ] ::1 /CES/index.php/Home/Menu/upMenuList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000720s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000650s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000696s ]
+NOTIC: [2] curl_setopt(): Disabling safe uploads is no longer supported /Users/lawrance/Data/CES/CES/Home/Controller/MenuController.class.php 第 71 行.
+NOTIC: [2] curl_setopt(): Disabling safe uploads is no longer supported /Users/lawrance/Data/CES/CES/Home/Controller/MenuController.class.php 第 71 行.
+
+[ 2016-11-10T22:34:09+08:00 ] ::1 /CES/index.php/Home/Menu/upMenuList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000436s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000459s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000489s ]
+NOTIC: [8] Undefined index: menu /Users/lawrance/Data/CES/CES/Home/Controller/MenuController.class.php 第 39 行.
+NOTIC: [2] curl_setopt(): Disabling safe uploads is no longer supported /Users/lawrance/Data/CES/CES/Home/Controller/MenuController.class.php 第 72 行.
+NOTIC: [2] curl_setopt(): Disabling safe uploads is no longer supported /Users/lawrance/Data/CES/CES/Home/Controller/MenuController.class.php 第 72 行.
+
+[ 2016-11-10T22:34:25+08:00 ] ::1 /CES/index.php/Home/Menu/upMenuList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000269s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000240s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000261s ]
+NOTIC: [8] Undefined index: menu /Users/lawrance/Data/CES/CES/Home/Controller/MenuController.class.php 第 39 行.
+NOTIC: [2] curl_setopt(): Disabling safe uploads is no longer supported /Users/lawrance/Data/CES/CES/Home/Controller/MenuController.class.php 第 72 行.
+NOTIC: [2] curl_setopt(): Disabling safe uploads is no longer supported /Users/lawrance/Data/CES/CES/Home/Controller/MenuController.class.php 第 72 行.
+
+[ 2016-11-10T22:36:00+08:00 ] ::1 /CES/index.php/Home/Menu/upMenuList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000997s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002067s ]
+NOTIC: [2] curl_setopt(): Disabling safe uploads is no longer supported /Users/lawrance/Data/CES/CES/Home/Controller/MenuController.class.php 第 72 行.
+NOTIC: [2] curl_setopt(): Disabling safe uploads is no longer supported /Users/lawrance/Data/CES/CES/Home/Controller/MenuController.class.php 第 72 行.
+
+[ 2016-11-10T22:39:23+08:00 ] ::1 /CES/index.php/Home/Menu/upMenuList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000608s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000482s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000513s ]
+
+[ 2016-11-10T22:40:11+08:00 ] ::1 /CES/index.php/Home/Menu/upMenuList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000425s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001007s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001092s ]
+
+[ 2016-11-10T22:46:34+08:00 ] ::1 /CES/index.php/Home/Menu/upMenuList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000582s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001249s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001366s ]
+NOTIC: [2] curl_setopt(): Disabling safe uploads is no longer supported /Users/lawrance/Data/CES/CES/Home/Controller/MenuController.class.php 第 73 行.
+NOTIC: [2] curl_setopt(): Disabling safe uploads is no longer supported /Users/lawrance/Data/CES/CES/Home/Controller/MenuController.class.php 第 73 行.
+
+[ 2016-11-10T22:46:53+08:00 ] ::1 /CES/index.php/Home/Menu/upMenuList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000274s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000417s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000460s ]
+NOTIC: [2] curl_setopt(): Disabling safe uploads is no longer supported /Users/lawrance/Data/CES/CES/Home/Controller/MenuController.class.php 第 73 行.
+NOTIC: [2] curl_setopt(): Disabling safe uploads is no longer supported /Users/lawrance/Data/CES/CES/Home/Controller/MenuController.class.php 第 73 行.
+
+[ 2016-11-10T22:46:53+08:00 ] ::1 /CES/index.php/Home/Menu/upMenuList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000743s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000313s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000343s ]
+NOTIC: [2] curl_setopt(): Disabling safe uploads is no longer supported /Users/lawrance/Data/CES/CES/Home/Controller/MenuController.class.php 第 73 行.
+NOTIC: [2] curl_setopt(): Disabling safe uploads is no longer supported /Users/lawrance/Data/CES/CES/Home/Controller/MenuController.class.php 第 73 行.
+
+[ 2016-11-10T22:47:09+08:00 ] ::1 /CES/index.php/Home/Menu/upMenuList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000340s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000454s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000501s ]
+NOTIC: [2] curl_setopt(): Disabling safe uploads is no longer supported /Users/lawrance/Data/CES/CES/Home/Controller/MenuController.class.php 第 73 行.
+NOTIC: [2] curl_setopt(): Disabling safe uploads is no longer supported /Users/lawrance/Data/CES/CES/Home/Controller/MenuController.class.php 第 73 行.
+
+[ 2016-11-10T22:48:29+08:00 ] ::1 /CES/index.php/Home/Menu/upMenuList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000427s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000529s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000558s ]
+NOTIC: [2] curl_setopt(): Disabling safe uploads is no longer supported /Users/lawrance/Data/CES/CES/Home/Controller/MenuController.class.php 第 73 行.
+NOTIC: [2] curl_setopt(): Disabling safe uploads is no longer supported /Users/lawrance/Data/CES/CES/Home/Controller/MenuController.class.php 第 73 行.
+
+[ 2016-11-10T22:48:33+08:00 ] ::1 /CES/index.php/Home/Menu/upMenuList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000243s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000303s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000338s ]
+NOTIC: [2] curl_setopt(): Disabling safe uploads is no longer supported /Users/lawrance/Data/CES/CES/Home/Controller/MenuController.class.php 第 73 行.
+NOTIC: [2] curl_setopt(): Disabling safe uploads is no longer supported /Users/lawrance/Data/CES/CES/Home/Controller/MenuController.class.php 第 73 行.
+
+[ 2016-11-10T22:48:34+08:00 ] ::1 /CES/index.php/Home/Menu/upMenuList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000323s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000439s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000484s ]
+NOTIC: [2] curl_setopt(): Disabling safe uploads is no longer supported /Users/lawrance/Data/CES/CES/Home/Controller/MenuController.class.php 第 73 行.
+NOTIC: [2] curl_setopt(): Disabling safe uploads is no longer supported /Users/lawrance/Data/CES/CES/Home/Controller/MenuController.class.php 第 73 行.
+
+[ 2016-11-10T22:48:35+08:00 ] ::1 /CES/index.php/Home/Menu/upMenuList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000194s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000215s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000239s ]
+NOTIC: [2] curl_setopt(): Disabling safe uploads is no longer supported /Users/lawrance/Data/CES/CES/Home/Controller/MenuController.class.php 第 73 行.
+NOTIC: [2] curl_setopt(): Disabling safe uploads is no longer supported /Users/lawrance/Data/CES/CES/Home/Controller/MenuController.class.php 第 73 行.
+
+[ 2016-11-10T22:48:35+08:00 ] ::1 /CES/index.php/Home/Menu/upMenuList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000253s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000821s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000931s ]
+NOTIC: [2] curl_setopt(): Disabling safe uploads is no longer supported /Users/lawrance/Data/CES/CES/Home/Controller/MenuController.class.php 第 73 行.
+NOTIC: [2] curl_setopt(): Disabling safe uploads is no longer supported /Users/lawrance/Data/CES/CES/Home/Controller/MenuController.class.php 第 73 行.
+
+[ 2016-11-10T22:48:35+08:00 ] ::1 /CES/index.php/Home/Menu/upMenuList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000178s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000221s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000240s ]
+NOTIC: [2] curl_setopt(): Disabling safe uploads is no longer supported /Users/lawrance/Data/CES/CES/Home/Controller/MenuController.class.php 第 73 行.
+NOTIC: [2] curl_setopt(): Disabling safe uploads is no longer supported /Users/lawrance/Data/CES/CES/Home/Controller/MenuController.class.php 第 73 行.
+
+[ 2016-11-10T22:48:38+08:00 ] ::1 /CES/index.php/Home/Menu/upMenuList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000755s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001006s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001083s ]
+NOTIC: [2] curl_setopt(): Disabling safe uploads is no longer supported /Users/lawrance/Data/CES/CES/Home/Controller/MenuController.class.php 第 73 行.
+NOTIC: [2] curl_setopt(): Disabling safe uploads is no longer supported /Users/lawrance/Data/CES/CES/Home/Controller/MenuController.class.php 第 73 行.
+
+[ 2016-11-10T22:48:52+08:00 ] ::1 /CES/index.php/Home/Menu/upMenuList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000308s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000354s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000388s ]
+NOTIC: [2] curl_setopt(): Disabling safe uploads is no longer supported /Users/lawrance/Data/CES/CES/Home/Controller/MenuController.class.php 第 73 行.
+NOTIC: [2] curl_setopt(): Disabling safe uploads is no longer supported /Users/lawrance/Data/CES/CES/Home/Controller/MenuController.class.php 第 73 行.
+
+[ 2016-11-10T22:48:52+08:00 ] ::1 /CES/index.php/Home/Menu/upMenuList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000171s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000213s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000233s ]
+NOTIC: [2] curl_setopt(): Disabling safe uploads is no longer supported /Users/lawrance/Data/CES/CES/Home/Controller/MenuController.class.php 第 73 行.
+NOTIC: [2] curl_setopt(): Disabling safe uploads is no longer supported /Users/lawrance/Data/CES/CES/Home/Controller/MenuController.class.php 第 73 行.
+
+[ 2016-11-10T22:49:09+08:00 ] ::1 /CES/index.php/Home/Menu/upMenuList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000455s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000560s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000615s ]
+NOTIC: [2] curl_setopt(): Disabling safe uploads is no longer supported /Users/lawrance/Data/CES/CES/Home/Controller/MenuController.class.php 第 73 行.
+NOTIC: [2] curl_setopt(): Disabling safe uploads is no longer supported /Users/lawrance/Data/CES/CES/Home/Controller/MenuController.class.php 第 73 行.
+
+[ 2016-11-10T22:49:12+08:00 ] ::1 /CES/index.php/Home/Menu/upMenuList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000348s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000317s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000352s ]
+NOTIC: [2] curl_setopt(): Disabling safe uploads is no longer supported /Users/lawrance/Data/CES/CES/Home/Controller/MenuController.class.php 第 73 行.
+NOTIC: [2] curl_setopt(): Disabling safe uploads is no longer supported /Users/lawrance/Data/CES/CES/Home/Controller/MenuController.class.php 第 73 行.
+
+[ 2016-11-10T22:49:13+08:00 ] ::1 /CES/index.php/Home/Menu/upMenuList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000308s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000394s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000435s ]
+NOTIC: [2] curl_setopt(): Disabling safe uploads is no longer supported /Users/lawrance/Data/CES/CES/Home/Controller/MenuController.class.php 第 73 行.
+NOTIC: [2] curl_setopt(): Disabling safe uploads is no longer supported /Users/lawrance/Data/CES/CES/Home/Controller/MenuController.class.php 第 73 行.
+
+[ 2016-11-10T22:49:13+08:00 ] ::1 /CES/index.php/Home/Menu/upMenuList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000157s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000223s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000244s ]
+NOTIC: [2] curl_setopt(): Disabling safe uploads is no longer supported /Users/lawrance/Data/CES/CES/Home/Controller/MenuController.class.php 第 73 行.
+NOTIC: [2] curl_setopt(): Disabling safe uploads is no longer supported /Users/lawrance/Data/CES/CES/Home/Controller/MenuController.class.php 第 73 行.
+
+[ 2016-11-10T22:49:13+08:00 ] ::1 /CES/index.php/Home/Menu/upMenuList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000167s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000209s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000228s ]
+NOTIC: [2] curl_setopt(): Disabling safe uploads is no longer supported /Users/lawrance/Data/CES/CES/Home/Controller/MenuController.class.php 第 73 行.
+NOTIC: [2] curl_setopt(): Disabling safe uploads is no longer supported /Users/lawrance/Data/CES/CES/Home/Controller/MenuController.class.php 第 73 行.
+
+[ 2016-11-10T22:50:21+08:00 ] ::1 /CES/index.php/Home/Menu/upMenuList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000484s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000432s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000459s ]
+NOTIC: [2] curl_setopt(): Disabling safe uploads is no longer supported /Users/lawrance/Data/CES/CES/Home/Controller/MenuController.class.php 第 74 行.
+NOTIC: [2] curl_setopt(): Disabling safe uploads is no longer supported /Users/lawrance/Data/CES/CES/Home/Controller/MenuController.class.php 第 74 行.
+
+[ 2016-11-10T22:50:21+08:00 ] ::1 /CES/index.php/Home/Menu/upMenuList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000180s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000200s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000218s ]
+NOTIC: [2] curl_setopt(): Disabling safe uploads is no longer supported /Users/lawrance/Data/CES/CES/Home/Controller/MenuController.class.php 第 74 行.
+NOTIC: [2] curl_setopt(): Disabling safe uploads is no longer supported /Users/lawrance/Data/CES/CES/Home/Controller/MenuController.class.php 第 74 行.
+
+[ 2016-11-10T22:50:23+08:00 ] ::1 /CES/index.php/Home/Menu/upMenuList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000278s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000439s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000485s ]
+NOTIC: [2] curl_setopt(): Disabling safe uploads is no longer supported /Users/lawrance/Data/CES/CES/Home/Controller/MenuController.class.php 第 74 行.
+NOTIC: [2] curl_setopt(): Disabling safe uploads is no longer supported /Users/lawrance/Data/CES/CES/Home/Controller/MenuController.class.php 第 74 行.
+
+[ 2016-11-10T22:50:23+08:00 ] ::1 /CES/index.php/Home/Menu/upMenuList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000177s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000218s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000240s ]
+NOTIC: [2] curl_setopt(): Disabling safe uploads is no longer supported /Users/lawrance/Data/CES/CES/Home/Controller/MenuController.class.php 第 74 行.
+NOTIC: [2] curl_setopt(): Disabling safe uploads is no longer supported /Users/lawrance/Data/CES/CES/Home/Controller/MenuController.class.php 第 74 行.
+
+[ 2016-11-10T22:50:24+08:00 ] ::1 /CES/index.php/Home/Menu/upMenuList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000171s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000301s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000333s ]
+NOTIC: [2] curl_setopt(): Disabling safe uploads is no longer supported /Users/lawrance/Data/CES/CES/Home/Controller/MenuController.class.php 第 74 行.
+NOTIC: [2] curl_setopt(): Disabling safe uploads is no longer supported /Users/lawrance/Data/CES/CES/Home/Controller/MenuController.class.php 第 74 行.
+
+[ 2016-11-10T22:50:24+08:00 ] ::1 /CES/index.php/Home/Menu/upMenuList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000196s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000226s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000247s ]
+NOTIC: [2] curl_setopt(): Disabling safe uploads is no longer supported /Users/lawrance/Data/CES/CES/Home/Controller/MenuController.class.php 第 74 行.
+NOTIC: [2] curl_setopt(): Disabling safe uploads is no longer supported /Users/lawrance/Data/CES/CES/Home/Controller/MenuController.class.php 第 74 行.
+
+[ 2016-11-10T22:50:25+08:00 ] ::1 /CES/index.php/Home/Menu/upMenuList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000181s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000292s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000317s ]
+NOTIC: [2] curl_setopt(): Disabling safe uploads is no longer supported /Users/lawrance/Data/CES/CES/Home/Controller/MenuController.class.php 第 74 行.
+NOTIC: [2] curl_setopt(): Disabling safe uploads is no longer supported /Users/lawrance/Data/CES/CES/Home/Controller/MenuController.class.php 第 74 行.
+
+[ 2016-11-10T22:50:25+08:00 ] ::1 /CES/index.php/Home/Menu/upMenuList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000264s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000248s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000272s ]
+NOTIC: [2] curl_setopt(): Disabling safe uploads is no longer supported /Users/lawrance/Data/CES/CES/Home/Controller/MenuController.class.php 第 74 行.
+NOTIC: [2] curl_setopt(): Disabling safe uploads is no longer supported /Users/lawrance/Data/CES/CES/Home/Controller/MenuController.class.php 第 74 行.
+
+[ 2016-11-10T22:50:25+08:00 ] ::1 /CES/index.php/Home/Menu/upMenuList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000193s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000237s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000259s ]
+NOTIC: [2] curl_setopt(): Disabling safe uploads is no longer supported /Users/lawrance/Data/CES/CES/Home/Controller/MenuController.class.php 第 74 行.
+NOTIC: [2] curl_setopt(): Disabling safe uploads is no longer supported /Users/lawrance/Data/CES/CES/Home/Controller/MenuController.class.php 第 74 行.
+
+[ 2016-11-10T22:50:26+08:00 ] ::1 /CES/index.php/Home/Menu/upMenuList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000188s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000206s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000224s ]
+NOTIC: [2] curl_setopt(): Disabling safe uploads is no longer supported /Users/lawrance/Data/CES/CES/Home/Controller/MenuController.class.php 第 74 行.
+NOTIC: [2] curl_setopt(): Disabling safe uploads is no longer supported /Users/lawrance/Data/CES/CES/Home/Controller/MenuController.class.php 第 74 行.
+
+[ 2016-11-10T22:51:37+08:00 ] ::1 /CES/index.php/Home/Menu/upMenuList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000297s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000404s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000447s ]
+NOTIC: [2] curl_setopt(): Disabling safe uploads is no longer supported /Users/lawrance/Data/CES/CES/Home/Controller/MenuController.class.php 第 74 行.
+NOTIC: [2] curl_setopt(): Disabling safe uploads is no longer supported /Users/lawrance/Data/CES/CES/Home/Controller/MenuController.class.php 第 74 行.
+
+[ 2016-11-10T22:51:38+08:00 ] ::1 /CES/index.php/Home/Menu/upMenuList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000200s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000316s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000353s ]
+NOTIC: [2] curl_setopt(): Disabling safe uploads is no longer supported /Users/lawrance/Data/CES/CES/Home/Controller/MenuController.class.php 第 74 行.
+NOTIC: [2] curl_setopt(): Disabling safe uploads is no longer supported /Users/lawrance/Data/CES/CES/Home/Controller/MenuController.class.php 第 74 行.
+
+[ 2016-11-10T22:51:39+08:00 ] ::1 /CES/index.php/Home/Menu/upMenuList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000278s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000410s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000455s ]
+NOTIC: [2] curl_setopt(): Disabling safe uploads is no longer supported /Users/lawrance/Data/CES/CES/Home/Controller/MenuController.class.php 第 74 行.
+NOTIC: [2] curl_setopt(): Disabling safe uploads is no longer supported /Users/lawrance/Data/CES/CES/Home/Controller/MenuController.class.php 第 74 行.
+
+[ 2016-11-10T22:51:39+08:00 ] ::1 /CES/index.php/Home/Menu/upMenuList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000232s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000254s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000281s ]
+NOTIC: [2] curl_setopt(): Disabling safe uploads is no longer supported /Users/lawrance/Data/CES/CES/Home/Controller/MenuController.class.php 第 74 行.
+NOTIC: [2] curl_setopt(): Disabling safe uploads is no longer supported /Users/lawrance/Data/CES/CES/Home/Controller/MenuController.class.php 第 74 行.
+
+[ 2016-11-10T22:51:40+08:00 ] ::1 /CES/index.php/Home/Menu/upMenuList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000167s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000345s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000377s ]
+NOTIC: [2] curl_setopt(): Disabling safe uploads is no longer supported /Users/lawrance/Data/CES/CES/Home/Controller/MenuController.class.php 第 74 行.
+NOTIC: [2] curl_setopt(): Disabling safe uploads is no longer supported /Users/lawrance/Data/CES/CES/Home/Controller/MenuController.class.php 第 74 行.
+
+[ 2016-11-10T22:51:54+08:00 ] ::1 /CES/index.php/Home/Menu/upMenuList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000209s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000329s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000364s ]
+NOTIC: [2] curl_setopt(): Disabling safe uploads is no longer supported /Users/lawrance/Data/CES/CES/Home/Controller/MenuController.class.php 第 74 行.
+NOTIC: [2] curl_setopt(): Disabling safe uploads is no longer supported /Users/lawrance/Data/CES/CES/Home/Controller/MenuController.class.php 第 74 行.
+
+[ 2016-11-10T22:52:07+08:00 ] ::1 /CES/index.php/Home/Menu/upMenuList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000391s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000389s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000430s ]
+NOTIC: [2] curl_setopt(): Disabling safe uploads is no longer supported /Users/lawrance/Data/CES/CES/Home/Controller/MenuController.class.php 第 74 行.
+NOTIC: [2] curl_setopt(): Disabling safe uploads is no longer supported /Users/lawrance/Data/CES/CES/Home/Controller/MenuController.class.php 第 74 行.
+
+[ 2016-11-10T22:54:21+08:00 ] ::1 /CES/index.php/Home/Menu/upMenuList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000444s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000474s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000504s ]
+NOTIC: [2] curl_setopt(): Disabling safe uploads is no longer supported /Users/lawrance/Data/CES/CES/Home/Controller/MenuController.class.php 第 74 行.
+NOTIC: [2] curl_setopt(): Disabling safe uploads is no longer supported /Users/lawrance/Data/CES/CES/Home/Controller/MenuController.class.php 第 74 行.
+
+[ 2016-11-10T22:55:53+08:00 ] ::1 /CES/index.php/Home/Menu/upMenuList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000322s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000401s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000440s ]
+NOTIC: [2] curl_setopt(): Disabling safe uploads is no longer supported /Users/lawrance/Data/CES/CES/Home/Controller/MenuController.class.php 第 74 行.
+NOTIC: [2] curl_setopt(): Disabling safe uploads is no longer supported /Users/lawrance/Data/CES/CES/Home/Controller/MenuController.class.php 第 74 行.
+
+[ 2016-11-10T22:56:16+08:00 ] ::1 /CES/index.php/Home/Menu/upMenuList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000313s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000398s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000439s ]
+NOTIC: [2] curl_setopt(): Disabling safe uploads is no longer supported /Users/lawrance/Data/CES/CES/Home/Controller/MenuController.class.php 第 74 行.
+NOTIC: [2] curl_setopt(): Disabling safe uploads is no longer supported /Users/lawrance/Data/CES/CES/Home/Controller/MenuController.class.php 第 74 行.
+
+[ 2016-11-10T22:57:45+08:00 ] ::1 /CES/index.php/Home/Menu/upMenuList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000416s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000624s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000666s ]
+NOTIC: [2] curl_setopt(): Disabling safe uploads is no longer supported /Users/lawrance/Data/CES/CES/Home/Controller/MenuController.class.php 第 76 行.
+NOTIC: [2] curl_setopt(): Disabling safe uploads is no longer supported /Users/lawrance/Data/CES/CES/Home/Controller/MenuController.class.php 第 76 行.
+
+[ 2016-11-10T22:57:46+08:00 ] ::1 /CES/index.php/Home/Menu/upMenuList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000306s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000386s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000439s ]
+NOTIC: [2] curl_setopt(): Disabling safe uploads is no longer supported /Users/lawrance/Data/CES/CES/Home/Controller/MenuController.class.php 第 76 行.
+NOTIC: [2] curl_setopt(): Disabling safe uploads is no longer supported /Users/lawrance/Data/CES/CES/Home/Controller/MenuController.class.php 第 76 行.
+
+[ 2016-11-10T22:57:52+08:00 ] ::1 /CES/index.php/Home/Menu/upMenuList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000262s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000384s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000416s ]
+NOTIC: [2] curl_setopt(): Disabling safe uploads is no longer supported /Users/lawrance/Data/CES/CES/Home/Controller/MenuController.class.php 第 76 行.
+NOTIC: [2] curl_setopt(): Disabling safe uploads is no longer supported /Users/lawrance/Data/CES/CES/Home/Controller/MenuController.class.php 第 76 行.
+
+[ 2016-11-10T22:58:00+08:00 ] ::1 /CES/index.php/Home/Menu/upMenuList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000213s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000252s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000271s ]
+NOTIC: [8] Undefined index: menu /Users/lawrance/Data/CES/CES/Home/Controller/MenuController.class.php 第 39 行.
+NOTIC: [2] curl_setopt(): Disabling safe uploads is no longer supported /Users/lawrance/Data/CES/CES/Home/Controller/MenuController.class.php 第 76 行.
+NOTIC: [2] curl_setopt(): Disabling safe uploads is no longer supported /Users/lawrance/Data/CES/CES/Home/Controller/MenuController.class.php 第 76 行.
+
+[ 2016-11-10T22:59:44+08:00 ] ::1 /CES/index.php/Home/Menu/upMenuList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000276s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000346s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000380s ]
+NOTIC: [2] curl_setopt(): Disabling safe uploads is no longer supported /Users/lawrance/Data/CES/CES/Home/Controller/MenuController.class.php 第 76 行.
+NOTIC: [2] curl_setopt(): Disabling safe uploads is no longer supported /Users/lawrance/Data/CES/CES/Home/Controller/MenuController.class.php 第 76 行.
+
+[ 2016-11-10T23:02:00+08:00 ] ::1 /CES/index.php/Home/Menu/upMenuList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000789s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000685s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000732s ]
+NOTIC: [2] curl_setopt(): Disabling safe uploads is no longer supported /Users/lawrance/Data/CES/CES/Home/Controller/MenuController.class.php 第 76 行.
+NOTIC: [2] curl_setopt(): Disabling safe uploads is no longer supported /Users/lawrance/Data/CES/CES/Home/Controller/MenuController.class.php 第 76 行.
+
+[ 2016-11-10T23:02:32+08:00 ] ::1 /CES/index.php/Home/Menu/upMenuList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001159s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000658s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000701s ]
+NOTIC: [2] curl_setopt(): Disabling safe uploads is no longer supported /Users/lawrance/Data/CES/CES/Home/Controller/MenuController.class.php 第 76 行.
+NOTIC: [2] curl_setopt(): Disabling safe uploads is no longer supported /Users/lawrance/Data/CES/CES/Home/Controller/MenuController.class.php 第 76 行.
+
+[ 2016-11-10T23:03:24+08:00 ] ::1 /CES/index.php/Home/Menu/upMenuList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000657s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000685s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000736s ]
+NOTIC: [2] curl_setopt(): Disabling safe uploads is no longer supported /Users/lawrance/Data/CES/CES/Home/Controller/MenuController.class.php 第 76 行.
+NOTIC: [2] curl_setopt(): Disabling safe uploads is no longer supported /Users/lawrance/Data/CES/CES/Home/Controller/MenuController.class.php 第 76 行.
+
+[ 2016-11-10T23:04:18+08:00 ] ::1 /CES/index.php/Home/Menu/upMenuList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000731s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000708s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000754s ]
+NOTIC: [2] curl_setopt(): Disabling safe uploads is no longer supported /Users/lawrance/Data/CES/CES/Home/Controller/MenuController.class.php 第 76 行.
+NOTIC: [2] curl_setopt(): Disabling safe uploads is no longer supported /Users/lawrance/Data/CES/CES/Home/Controller/MenuController.class.php 第 76 行.
+
+[ 2016-11-10T23:05:35+08:00 ] ::1 /CES/index.php/Home/Menu/upMenuList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000501s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000668s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000713s ]
+NOTIC: [2] curl_setopt(): Disabling safe uploads is no longer supported /Users/lawrance/Data/CES/CES/Home/Controller/MenuController.class.php 第 76 行.
+NOTIC: [2] curl_setopt(): Disabling safe uploads is no longer supported /Users/lawrance/Data/CES/CES/Home/Controller/MenuController.class.php 第 76 行.
+
+[ 2016-11-10T23:09:22+08:00 ] ::1 /CES/index.php/Home/Menu/upMenuList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000342s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000584s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000632s ]
+NOTIC: [8] Undefined index: menu /Users/lawrance/Data/CES/CES/Home/Controller/MenuController.class.php 第 39 行.
+NOTIC: [2] curl_setopt(): Disabling safe uploads is no longer supported /Users/lawrance/Data/CES/CES/Home/Controller/MenuController.class.php 第 76 行.
+NOTIC: [2] curl_setopt(): Disabling safe uploads is no longer supported /Users/lawrance/Data/CES/CES/Home/Controller/MenuController.class.php 第 76 行.
+

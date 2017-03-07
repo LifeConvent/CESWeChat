@@ -1,0 +1,11 @@
+[ 2017-01-05T12:22:03+08:00 ] ::1 /CES/index.php/Home/GroupSend/allSendNews
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000755s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000473s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000510s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /Users/lawrance/Data/CES/ThinkPHP/Common/functions.php 第 1263 行.
+NOTIC: [2] curl_setopt(): Disabling safe uploads is no longer supported /Users/lawrance/Data/CES/CES/Home/Controller/MenuController.class.php 第 86 行.
+NOTIC: [2] curl_setopt(): Disabling safe uploads is no longer supported /Users/lawrance/Data/CES/CES/Home/Controller/MenuController.class.php 第 86 行.
+

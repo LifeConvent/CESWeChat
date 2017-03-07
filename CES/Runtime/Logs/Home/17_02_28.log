@@ -1,0 +1,32 @@
+[ 2017-02-28T20:49:25+08:00 ] 127.0.0.1 /CES/index.php/Home/Access/access?signature=641ca18b7a9b470f3ec36dcd6bfb512e77e56d8f&echostr=4088997305250742259&timestamp=1488286163&nonce=1783581403
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000423s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000469s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000496s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /Users/lawrance/Data/CES/ThinkPHP/Common/functions.php 第 1263 行.
+
+[ 2017-02-28T20:49:30+08:00 ] 127.0.0.1 /CES/index.php/Home/Access/access?signature=bfb1edc6592f7d5f5916612264c91c9d002c134d&echostr=8280448767790773727&timestamp=1488286169&nonce=1887615731
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000386s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000404s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000445s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /Users/lawrance/Data/CES/ThinkPHP/Common/functions.php 第 1263 行.
+
+[ 2017-02-28T20:50:05+08:00 ] 127.0.0.1 /CES/index.php/Home/Access/access?signature=635307fb4fe1ea514708cbb3091ede0db7e1c0b2&timestamp=1488286204&nonce=1741856885&openid=ocoIvxLTumwc3gpi6SPvKWrzYlt0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000198s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000236s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000256s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /Users/lawrance/Data/CES/ThinkPHP/Common/functions.php 第 1263 行.
+NOTIC: [8] Undefined index: echostr /Users/lawrance/Data/CES/CES/Home/Controller/AccessController.class.php 第 77 行.
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `tb_user` WHERE `openid` = 'ocoIvxLTumwc3gpi6SPvKWrzYlt0' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tb_survey_plan` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `tb_survey_plan` WHERE `openid` = 'ocoIvxLTumwc3gpi6SPvKWrzYlt0' AND `is_finish` = '0'  [ RunTime:0.0004s ]
+

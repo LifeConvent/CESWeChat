@@ -1,0 +1,61 @@
+[ 2016-11-15T13:36:20+08:00 ] 127.0.0.1 /CES/index.php/Home/Access/access?signature=3a6c360cbf8858551b603c3c672ecea6595ced9c&echostr=7861629739776073430&timestamp=1479188180&nonce=1847953565
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000441s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000452s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000486s ]
+
+[ 2016-11-15T13:37:10+08:00 ] ::1 /CES/index.php/Home/Menu/upMenuList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000174s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000238s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000259s ]
+SQL: SHOW COLUMNS FROM `tb_menu_content` [ RunTime:0.0023s ]
+SQL: INSERT INTO `tb_menu_content` (`keyid`,`content`) VALUES ('fAiNC1479188229000','您查询的是百度') [ RunTime:0.0242s ]
+SQL: INSERT INTO `tb_menu_content` (`keyid`,`content`) VALUES ('PjaM21479188229000','请输入网址https://www.baidu.com/') [ RunTime:0.0013s ]
+NOTIC: [2] curl_setopt(): Disabling safe uploads is no longer supported /Users/lawrance/Data/CES/CES/Home/Controller/MenuController.class.php 第 86 行.
+NOTIC: [2] curl_setopt(): Disabling safe uploads is no longer supported /Users/lawrance/Data/CES/CES/Home/Controller/MenuController.class.php 第 86 行.
+
+[ 2016-11-15T13:38:26+08:00 ] 127.0.0.1 /CES/index.php/Home/Access/access?signature=911ddb555b31972fd0b44e9c10b0ef4aeb46b4ce&timestamp=1479188306&nonce=274346772&openid=ocoIvxLTumwc3gpi6SPvKWrzYlt0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000182s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000229s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000250s ]
+NOTIC: [8] Undefined index: echostr /Users/lawrance/Data/CES/CES/Home/Controller/AccessController.class.php 第 316 行.
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tb_user` WHERE `openid` = 'ocoIvxLTumwc3gpi6SPvKWrzYlt0' LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000528s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000559s ]
+
+[ 2016-11-15T13:38:33+08:00 ] 127.0.0.1 /CES/index.php/Home/Access/access?signature=32a96d55a3855f11c14bfccae663d164cd9b3e8f&timestamp=1479188313&nonce=396432021&openid=ocoIvxLTumwc3gpi6SPvKWrzYlt0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000180s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000244s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000265s ]
+NOTIC: [8] Undefined index: echostr /Users/lawrance/Data/CES/CES/Home/Controller/AccessController.class.php 第 316 行.
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `tb_user` WHERE `openid` = 'ocoIvxLTumwc3gpi6SPvKWrzYlt0' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `tb_menu_content` [ RunTime:0.0008s ]
+SQL: SELECT `content` FROM `tb_menu_content` WHERE `keyid` = 'fAiNC1479188229000' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2016-11-15T13:38:35+08:00 ] 127.0.0.1 /CES/index.php/Home/Access/access?signature=45a061908bb6566f0314781fd06ba31dd2b25100&timestamp=1479188315&nonce=474837964&openid=ocoIvxLTumwc3gpi6SPvKWrzYlt0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000156s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000194s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000213s ]
+NOTIC: [8] Undefined index: echostr /Users/lawrance/Data/CES/CES/Home/Controller/AccessController.class.php 第 316 行.
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tb_user` WHERE `openid` = 'ocoIvxLTumwc3gpi6SPvKWrzYlt0' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tb_menu_content` [ RunTime:0.0010s ]
+SQL: SELECT `content` FROM `tb_menu_content` WHERE `keyid` = 'PjaM21479188229000' LIMIT 1   [ RunTime:0.0001s ]
+

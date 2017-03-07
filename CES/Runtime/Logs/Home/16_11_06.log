@@ -1,0 +1,906 @@
+[ 2016-11-06T09:39:38+08:00 ] 127.0.0.1 /CES/index.php/Home/Access/access?signature=e9827cf6bfa29967a0f4ddd671aa60ddd7b67912&timestamp=1478396377&nonce=1345445534&openid=ocoIvxLTumwc3gpi6SPvKWrzYlt0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000432s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000463s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000499s ]
+NOTIC: [8] Undefined index: echostr /Users/lawrance/Data/CES/CES/Home/Controller/AccessController.class.php 第 281 行.
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `tb_user` WHERE `openid` = 'ocoIvxLTumwc3gpi6SPvKWrzYlt0' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-11-06T09:45:12+08:00 ] ::1 /CES/index.php/Home/Usermanager/addopenInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000365s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000393s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000414s ]
+NOTIC: [8] Undefined index: id /Users/lawrance/Data/CES/CES/Home/Controller/UsermanagerController.class.php 第 48 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000063s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006238s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006271s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000293s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000313s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000424s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000445s ]
+
+[ 2016-11-06T09:46:03+08:00 ] 127.0.0.1 /CES/index.php/Home/Usermanager/addopenInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000399s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000486s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000517s ]
+NOTIC: [8] Undefined index: id /Users/lawrance/Data/CES/CES/Home/Controller/UsermanagerController.class.php 第 48 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000060s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005107s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005131s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000325s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000348s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000495s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000518s ]
+
+[ 2016-11-06T09:46:21+08:00 ] 127.0.0.1 /CES/index.php/Home/Usermanager/addopenInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000700s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001472s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001520s ]
+NOTIC: [8] Undefined index: id /Users/lawrance/Data/CES/CES/Home/Controller/UsermanagerController.class.php 第 48 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000084s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006588s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006629s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000319s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000347s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000867s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000903s ]
+
+[ 2016-11-06T09:47:07+08:00 ] 127.0.0.1 /CES/index.php/Home/Access/access?signature=b6f5978e660da3965ac1319e64cc1f357fda4a8f&timestamp=1478396827&nonce=784847926&openid=ocoIvxLTumwc3gpi6SPvKWrzYlt0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000526s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000454s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000487s ]
+NOTIC: [8] Undefined index: echostr /Users/lawrance/Data/CES/CES/Home/Controller/AccessController.class.php 第 281 行.
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `tb_user` WHERE `openid` = 'ocoIvxLTumwc3gpi6SPvKWrzYlt0' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000517s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000539s ]
+
+[ 2016-11-06T09:57:04+08:00 ] 127.0.0.1 /CES/index.php/Home/UserManager/addOpenInfo?id=ocoIvxLTumwc3gpi6SPvKWrzYlt0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000443s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000446s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000480s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000063s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005979s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006010s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000285s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000303s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000436s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000457s ]
+
+[ 2016-11-06T09:57:18+08:00 ] 127.0.0.1 /CES/index.php/Home/UserManager/addOpenInfo?id=ocoIvxLTumwc3gpi6SPvKWrzYlt0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000176s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000207s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000252s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000105s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004820s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004845s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000115s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000130s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000283s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000305s ]
+
+[ 2016-11-06T09:59:05+08:00 ] 127.0.0.1 /CES/index.php/Home/Access/access?signature=c6e8754585c1d9e4d0c678b4a0ae7b0bc8f3bb7d&timestamp=1478397545&nonce=846086476&openid=ocoIvxLTumwc3gpi6SPvKWrzYlt0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000259s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000261s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000290s ]
+NOTIC: [8] Undefined index: echostr /Users/lawrance/Data/CES/CES/Home/Controller/AccessController.class.php 第 281 行.
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `tb_user` WHERE `openid` = 'ocoIvxLTumwc3gpi6SPvKWrzYlt0' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000322s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000342s ]
+
+[ 2016-11-06T10:58:34+08:00 ] 127.0.0.1 /CES/index.php/Home/Access/access?signature=690582b8f162222b42712d84313daaa42d86c01d&timestamp=1478401114&nonce=633616835&openid=ocoIvxLTumwc3gpi6SPvKWrzYlt0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000175s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000222s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000243s ]
+NOTIC: [8] Undefined index: echostr /Users/lawrance/Data/CES/CES/Home/Controller/AccessController.class.php 第 281 行.
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `tb_user` WHERE `openid` = 'ocoIvxLTumwc3gpi6SPvKWrzYlt0' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-11-06T10:58:37+08:00 ] 127.0.0.1 /CES/index.php/Home/GroupSend/sendTest?id=ocoIvxLTumwc3gpi6SPvKWrzYlt0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000336s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000397s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000427s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000029s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000052s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002841s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002866s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000090s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000104s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000266s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000282s ]
+
+[ 2016-11-06T10:58:52+08:00 ] 127.0.0.1 /CES/index.php/Home/GroupSend/sendTextArray
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000175s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000222s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000242s ]
+NOTIC: [8] Undefined offset: 0 /Users/lawrance/Data/CES/CES/Home/Controller/GroupSendController.class.php 第 126 行.
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0019s ]
+SQL: SELECT `openid` FROM `tb_user` LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /Users/lawrance/Data/CES/CES/Home/Controller/GroupSendController.class.php 第 191 行.
+NOTIC: [2] curl_setopt(): Disabling safe uploads is no longer supported /Users/lawrance/Data/CES/CES/Home/Controller/MenuController.class.php 第 66 行.
+NOTIC: [2] curl_setopt(): Disabling safe uploads is no longer supported /Users/lawrance/Data/CES/CES/Home/Controller/MenuController.class.php 第 66 行.
+
+[ 2016-11-06T11:00:54+08:00 ] 127.0.0.1 /CES/index.php/Home/GroupSend/sendTextArray
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000179s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000222s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000242s ]
+NOTIC: [8] Undefined offset: 0 /Users/lawrance/Data/CES/CES/Home/Controller/GroupSendController.class.php 第 126 行.
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0020s ]
+SQL: SELECT `openid` FROM `tb_user` LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /Users/lawrance/Data/CES/CES/Home/Controller/GroupSendController.class.php 第 191 行.
+NOTIC: [2] curl_setopt(): Disabling safe uploads is no longer supported /Users/lawrance/Data/CES/CES/Home/Controller/MenuController.class.php 第 66 行.
+NOTIC: [2] curl_setopt(): Disabling safe uploads is no longer supported /Users/lawrance/Data/CES/CES/Home/Controller/MenuController.class.php 第 66 行.
+
+[ 2016-11-06T11:01:09+08:00 ] 127.0.0.1 /CES/index.php/Home/Access/access?signature=fe2bfa28cf0031279eb99f80ef81b112bfa1d705&timestamp=1478401268&nonce=1554143107&openid=ocoIvxLTumwc3gpi6SPvKWrzYlt0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000182s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000224s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000246s ]
+NOTIC: [8] Undefined index: echostr /Users/lawrance/Data/CES/CES/Home/Controller/AccessController.class.php 第 281 行.
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `tb_user` WHERE `openid` = 'ocoIvxLTumwc3gpi6SPvKWrzYlt0' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-11-06T11:01:11+08:00 ] 127.0.0.1 /CES/index.php/Home/GroupSend/sendTest?id=ocoIvxLTumwc3gpi6SPvKWrzYlt0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000181s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000224s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000244s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000024s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000043s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002512s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002531s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000081s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000093s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000238s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000253s ]
+
+[ 2016-11-06T11:02:41+08:00 ] 127.0.0.1 /CES/index.php/Home/GroupSend/sendTextArray
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000179s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000224s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000245s ]
+NOTIC: [8] Undefined offset: 0 /Users/lawrance/Data/CES/CES/Home/Controller/GroupSendController.class.php 第 126 行.
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0020s ]
+SQL: SELECT `openid` FROM `tb_user` LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /Users/lawrance/Data/CES/CES/Home/Controller/GroupSendController.class.php 第 191 行.
+NOTIC: [2] curl_setopt(): Disabling safe uploads is no longer supported /Users/lawrance/Data/CES/CES/Home/Controller/MenuController.class.php 第 66 行.
+NOTIC: [2] curl_setopt(): Disabling safe uploads is no longer supported /Users/lawrance/Data/CES/CES/Home/Controller/MenuController.class.php 第 66 行.
+
+[ 2016-11-06T11:05:21+08:00 ] 127.0.0.1 /CES/index.php/Home/GroupSend/sendByOpenid
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000173s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000225s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000244s ]
+NOTIC: [8] Undefined index: userid /Users/lawrance/Data/CES/CES/Home/Controller/GroupSendController.class.php 第 119 行.
+NOTIC: [8] Undefined index: content /Users/lawrance/Data/CES/CES/Home/Controller/GroupSendController.class.php 第 120 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000293s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000316s ]
+
+[ 2016-11-06T11:13:30+08:00 ] 127.0.0.1 /CES/index.php/Home/GroupSend/sendByOpenid?userid=20135580&content=test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000176s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000222s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000242s ]
+NOTIC: [8] Undefined offset: 0 /Users/lawrance/Data/CES/CES/Home/Controller/GroupSendController.class.php 第 137 行.
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0015s ]
+SQL: SELECT `openid` FROM `tb_user` LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /Users/lawrance/Data/CES/CES/Home/Controller/GroupSendController.class.php 第 202 行.
+NOTIC: [2] curl_setopt(): Disabling safe uploads is no longer supported /Users/lawrance/Data/CES/CES/Home/Controller/MenuController.class.php 第 66 行.
+NOTIC: [2] curl_setopt(): Disabling safe uploads is no longer supported /Users/lawrance/Data/CES/CES/Home/Controller/MenuController.class.php 第 66 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000355s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000394s ]
+
+[ 2016-11-06T11:13:47+08:00 ] 127.0.0.1 /CES/index.php/Home/GroupSend/sendByOpenid?userid=20135580&content=test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000179s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000264s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000287s ]
+NOTIC: [8] Undefined offset: 0 /Users/lawrance/Data/CES/CES/Home/Controller/GroupSendController.class.php 第 137 行.
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0009s ]
+SQL: SELECT `openid` FROM `tb_user` LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /Users/lawrance/Data/CES/CES/Home/Controller/GroupSendController.class.php 第 202 行.
+NOTIC: [2] curl_setopt(): Disabling safe uploads is no longer supported /Users/lawrance/Data/CES/CES/Home/Controller/MenuController.class.php 第 66 行.
+NOTIC: [2] curl_setopt(): Disabling safe uploads is no longer supported /Users/lawrance/Data/CES/CES/Home/Controller/MenuController.class.php 第 66 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000358s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000392s ]
+
+[ 2016-11-06T11:16:27+08:00 ] 127.0.0.1 /CES/index.php/Home/GroupSend/sendByOpenid?userid=20135580&content=test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000178s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000224s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000244s ]
+NOTIC: [2] curl_setopt(): Disabling safe uploads is no longer supported /Users/lawrance/Data/CES/CES/Home/Controller/MenuController.class.php 第 66 行.
+NOTIC: [2] curl_setopt(): Disabling safe uploads is no longer supported /Users/lawrance/Data/CES/CES/Home/Controller/MenuController.class.php 第 66 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000445s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000487s ]
+
+[ 2016-11-06T11:18:09+08:00 ] 127.0.0.1 /CES/index.php/Home/GroupSend/sendByOpenid?userid=20135580&content=test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000179s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000228s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000248s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0020s ]
+SQL: SELECT `openid` FROM `tb_user` LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /Users/lawrance/Data/CES/CES/Home/Controller/GroupSendController.class.php 第 211 行.
+NOTIC: [2] curl_setopt(): Disabling safe uploads is no longer supported /Users/lawrance/Data/CES/CES/Home/Controller/MenuController.class.php 第 66 行.
+NOTIC: [2] curl_setopt(): Disabling safe uploads is no longer supported /Users/lawrance/Data/CES/CES/Home/Controller/MenuController.class.php 第 66 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000361s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000396s ]
+
+[ 2016-11-06T11:19:44+08:00 ] 127.0.0.1 /CES/index.php/Home/GroupSend/sendByOpenid?userid=20135580&content=test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000188s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000232s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000252s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0029s ]
+SQL: SELECT `openid` FROM `tb_user` LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [2] curl_setopt(): Disabling safe uploads is no longer supported /Users/lawrance/Data/CES/CES/Home/Controller/MenuController.class.php 第 66 行.
+NOTIC: [2] curl_setopt(): Disabling safe uploads is no longer supported /Users/lawrance/Data/CES/CES/Home/Controller/MenuController.class.php 第 66 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000501s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000551s ]
+
+[ 2016-11-06T11:19:56+08:00 ] 127.0.0.1 /CES/index.php/Home/GroupSend/sendByOpenid?userid=20135580&content=test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000177s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000223s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000242s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0019s ]
+SQL: SELECT `openid` FROM `tb_user` LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [2] curl_setopt(): Disabling safe uploads is no longer supported /Users/lawrance/Data/CES/CES/Home/Controller/MenuController.class.php 第 66 行.
+NOTIC: [2] curl_setopt(): Disabling safe uploads is no longer supported /Users/lawrance/Data/CES/CES/Home/Controller/MenuController.class.php 第 66 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000335s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000367s ]
+
+[ 2016-11-06T11:20:31+08:00 ] 127.0.0.1 /CES/index.php/Home/GroupSend/sendByOpenid?userid=20135580&content=test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000185s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000236s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000257s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0012s ]
+SQL: SELECT `openid` FROM `tb_user` LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [2] curl_setopt(): Disabling safe uploads is no longer supported /Users/lawrance/Data/CES/CES/Home/Controller/MenuController.class.php 第 66 行.
+NOTIC: [2] curl_setopt(): Disabling safe uploads is no longer supported /Users/lawrance/Data/CES/CES/Home/Controller/MenuController.class.php 第 66 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000377s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000413s ]
+
+[ 2016-11-06T11:21:47+08:00 ] 127.0.0.1 /CES/index.php/Home/GroupSend/sendByOpenid?userid=20135580&content=test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000180s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000224s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000244s ]
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0021s ]
+SQL: SELECT `openid` FROM `tb_user` WHERE `stu_num` = '20135580' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] curl_setopt(): Disabling safe uploads is no longer supported /Users/lawrance/Data/CES/CES/Home/Controller/MenuController.class.php 第 66 行.
+NOTIC: [2] curl_setopt(): Disabling safe uploads is no longer supported /Users/lawrance/Data/CES/CES/Home/Controller/MenuController.class.php 第 66 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000353s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000387s ]
+
+[ 2016-11-06T11:21:48+08:00 ] 127.0.0.1 /CES/index.php/Home/Access/access?signature=97d4b80ce01e9d07565298c71084a5b9e925f5e2&timestamp=1478402508&nonce=1803144555&openid=ocoIvxO2yhmOTeuhoA2gmRCVDnSo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000179s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000224s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000244s ]
+NOTIC: [8] Undefined index: echostr /Users/lawrance/Data/CES/CES/Home/Controller/AccessController.class.php 第 281 行.
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tb_user` WHERE `openid` = 'ocoIvxO2yhmOTeuhoA2gmRCVDnSo' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-11-06T11:22:25+08:00 ] 127.0.0.1 /CES/index.php/Home/Access/access?signature=d43d33d63c428f6594de79507910023bac74db03&timestamp=1478402545&nonce=1079665008&openid=ocoIvxLTumwc3gpi6SPvKWrzYlt0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000180s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000228s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000248s ]
+NOTIC: [8] Undefined index: echostr /Users/lawrance/Data/CES/CES/Home/Controller/AccessController.class.php 第 281 行.
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tb_user` WHERE `openid` = 'ocoIvxLTumwc3gpi6SPvKWrzYlt0' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-11-06T11:22:31+08:00 ] 127.0.0.1 /CES/index.php/Home/GroupSend/sendTest?id=ocoIvxLTumwc3gpi6SPvKWrzYlt0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000179s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000226s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000246s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000024s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000045s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002551s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002574s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000091s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000104s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000261s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000277s ]
+
+[ 2016-11-06T11:22:39+08:00 ] 127.0.0.1 /CES/index.php/Home/GroupSend/sendTextArray
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000177s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000223s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000243s ]
+NOTIC: [8] Undefined offset: 0 /Users/lawrance/Data/CES/CES/Home/Controller/GroupSendController.class.php 第 140 行.
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0011s ]
+SQL: SELECT `openid` FROM `tb_user` WHERE `stu_num` = '20135580' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] curl_setopt(): Disabling safe uploads is no longer supported /Users/lawrance/Data/CES/CES/Home/Controller/MenuController.class.php 第 66 行.
+NOTIC: [2] curl_setopt(): Disabling safe uploads is no longer supported /Users/lawrance/Data/CES/CES/Home/Controller/MenuController.class.php 第 66 行.
+
+[ 2016-11-06T11:22:40+08:00 ] 127.0.0.1 /CES/index.php/Home/Access/access?signature=7076baefe5631709665a8b42664ba534b52a1bcc&timestamp=1478402560&nonce=38778138&openid=ocoIvxO2yhmOTeuhoA2gmRCVDnSo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000181s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000233s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000256s ]
+NOTIC: [8] Undefined index: echostr /Users/lawrance/Data/CES/CES/Home/Controller/AccessController.class.php 第 281 行.
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tb_user` WHERE `openid` = 'ocoIvxO2yhmOTeuhoA2gmRCVDnSo' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-11-06T11:22:43+08:00 ] 127.0.0.1 /CES/index.php/Home/GroupSend/sendTextArray
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000175s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000220s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000240s ]
+NOTIC: [8] Undefined offset: 0 /Users/lawrance/Data/CES/CES/Home/Controller/GroupSendController.class.php 第 140 行.
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0020s ]
+SQL: SELECT `openid` FROM `tb_user` WHERE `stu_num` = '20135580' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] curl_setopt(): Disabling safe uploads is no longer supported /Users/lawrance/Data/CES/CES/Home/Controller/MenuController.class.php 第 66 行.
+NOTIC: [2] curl_setopt(): Disabling safe uploads is no longer supported /Users/lawrance/Data/CES/CES/Home/Controller/MenuController.class.php 第 66 行.
+
+[ 2016-11-06T11:22:44+08:00 ] 127.0.0.1 /CES/index.php/Home/Access/access?signature=b9d5a36cef4b0fd2dd4dbb18bf135be05686e4cc&timestamp=1478402564&nonce=1511959084&openid=ocoIvxO2yhmOTeuhoA2gmRCVDnSo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000202s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000235s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000255s ]
+NOTIC: [8] Undefined index: echostr /Users/lawrance/Data/CES/CES/Home/Controller/AccessController.class.php 第 281 行.
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tb_user` WHERE `openid` = 'ocoIvxO2yhmOTeuhoA2gmRCVDnSo' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-11-06T11:24:06+08:00 ] 127.0.0.1 /CES/index.php/Home/GroupSend/sendTextArray
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000214s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000235s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000255s ]
+NOTIC: [8] Undefined offset: 0 /Users/lawrance/Data/CES/CES/Home/Controller/GroupSendController.class.php 第 140 行.
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0019s ]
+SQL: SELECT `openid` FROM `tb_user` WHERE `stu_num` = '20135580' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] curl_setopt(): Disabling safe uploads is no longer supported /Users/lawrance/Data/CES/CES/Home/Controller/MenuController.class.php 第 66 行.
+NOTIC: [2] curl_setopt(): Disabling safe uploads is no longer supported /Users/lawrance/Data/CES/CES/Home/Controller/MenuController.class.php 第 66 行.
+
+[ 2016-11-06T11:24:07+08:00 ] 127.0.0.1 /CES/index.php/Home/Access/access?signature=c5de24bd38da3a8804fdaf0f69f5830737db6311&timestamp=1478402647&nonce=912833912&openid=ocoIvxO2yhmOTeuhoA2gmRCVDnSo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000181s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000221s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000242s ]
+NOTIC: [8] Undefined index: echostr /Users/lawrance/Data/CES/CES/Home/Controller/AccessController.class.php 第 281 行.
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tb_user` WHERE `openid` = 'ocoIvxO2yhmOTeuhoA2gmRCVDnSo' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-11-06T11:24:09+08:00 ] 127.0.0.1 /CES/index.php/Home/GroupSend/sendTextArray
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000178s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000225s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000244s ]
+NOTIC: [8] Undefined offset: 0 /Users/lawrance/Data/CES/CES/Home/Controller/GroupSendController.class.php 第 140 行.
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0019s ]
+SQL: SELECT `openid` FROM `tb_user` WHERE `stu_num` = '20135580' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] curl_setopt(): Disabling safe uploads is no longer supported /Users/lawrance/Data/CES/CES/Home/Controller/MenuController.class.php 第 66 行.
+NOTIC: [2] curl_setopt(): Disabling safe uploads is no longer supported /Users/lawrance/Data/CES/CES/Home/Controller/MenuController.class.php 第 66 行.
+
+[ 2016-11-06T11:24:10+08:00 ] 127.0.0.1 /CES/index.php/Home/Access/access?signature=86b7d1435f38ff3cbeff09f3ef4cfa42665f519d&timestamp=1478402650&nonce=45488439&openid=ocoIvxO2yhmOTeuhoA2gmRCVDnSo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000170s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000280s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000308s ]
+NOTIC: [8] Undefined index: echostr /Users/lawrance/Data/CES/CES/Home/Controller/AccessController.class.php 第 281 行.
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tb_user` WHERE `openid` = 'ocoIvxO2yhmOTeuhoA2gmRCVDnSo' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-11-06T11:25:25+08:00 ] 127.0.0.1 /CES/index.php/Home/GroupSend/sendTextArray
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000176s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000224s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000243s ]
+NOTIC: [8] Undefined offset: 0 /Users/lawrance/Data/CES/CES/Home/Controller/GroupSendController.class.php 第 139 行.
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0019s ]
+SQL: SELECT `openid` FROM `tb_user` WHERE `stu_num` = '20135580' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] curl_setopt(): Disabling safe uploads is no longer supported /Users/lawrance/Data/CES/CES/Home/Controller/MenuController.class.php 第 66 行.
+NOTIC: [2] curl_setopt(): Disabling safe uploads is no longer supported /Users/lawrance/Data/CES/CES/Home/Controller/MenuController.class.php 第 66 行.
+
+[ 2016-11-06T11:25:27+08:00 ] 127.0.0.1 /CES/index.php/Home/Access/access?signature=64c0255aef458facd9e785e3c656128d6d9ca4f0&timestamp=1478402727&nonce=1839376452&openid=ocoIvxO2yhmOTeuhoA2gmRCVDnSo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000282s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000249s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000271s ]
+NOTIC: [8] Undefined index: echostr /Users/lawrance/Data/CES/CES/Home/Controller/AccessController.class.php 第 281 行.
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tb_user` WHERE `openid` = 'ocoIvxO2yhmOTeuhoA2gmRCVDnSo' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-11-06T11:25:30+08:00 ] 127.0.0.1 /CES/index.php/Home/Access/access?signature=af0cb6ba5d541180871a068a9a028b16bf224c80&timestamp=1478402730&nonce=1063802056&openid=ocoIvxLTumwc3gpi6SPvKWrzYlt0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000173s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000220s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000240s ]
+NOTIC: [8] Undefined index: echostr /Users/lawrance/Data/CES/CES/Home/Controller/AccessController.class.php 第 281 行.
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `tb_user` WHERE `openid` = 'ocoIvxLTumwc3gpi6SPvKWrzYlt0' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-11-06T14:00:04+08:00 ] 127.0.0.1 /CES/index.php/Home/Access/access?signature=19c96fcd307462a67f3b19fe2901080922b74a14&echostr=2530178670752956155&timestamp=1478412003&nonce=510737573
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000184s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000226s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000245s ]
+
+[ 2016-11-06T14:00:14+08:00 ] 127.0.0.1 /CES/index.php/Home/Access/access?signature=eb931db6867e47404d267c2e4152e3a8084d3f71&timestamp=1478412014&nonce=815195316&openid=ocoIvxLTumwc3gpi6SPvKWrzYlt0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000180s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000224s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000245s ]
+NOTIC: [8] Undefined index: echostr /Users/lawrance/Data/CES/CES/Home/Controller/AccessController.class.php 第 280 行.
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `tb_user` WHERE `openid` = 'ocoIvxLTumwc3gpi6SPvKWrzYlt0' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-11-06T14:00:24+08:00 ] 127.0.0.1 /CES/index.php/Home/Access/access
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000182s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000233s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000254s ]
+NOTIC: [8] Undefined index: echostr /Users/lawrance/Data/CES/CES/Home/Controller/AccessController.class.php 第 280 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000247s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000272s ]
+
+[ 2016-11-06T14:06:45+08:00 ] 127.0.0.1 /CES/index.php/Home/Usermanager/uploaderSetTag?tag=2013
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000179s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000224s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000243s ]
+NOTIC: [2] curl_setopt(): Disabling safe uploads is no longer supported /Users/lawrance/Data/CES/CES/Home/Controller/MenuController.class.php 第 66 行.
+NOTIC: [2] curl_setopt(): Disabling safe uploads is no longer supported /Users/lawrance/Data/CES/CES/Home/Controller/MenuController.class.php 第 66 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000472s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000602s ]
+
+[ 2016-11-06T14:11:54+08:00 ] 127.0.0.1 /CES/index.php/Home/Usermanager/uploaderSetTag?tag=2013
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000176s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000421s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000462s ]
+NOTIC: [2] curl_setopt(): Disabling safe uploads is no longer supported /Users/lawrance/Data/CES/CES/Home/Controller/MenuController.class.php 第 66 行.
+NOTIC: [2] curl_setopt(): Disabling safe uploads is no longer supported /Users/lawrance/Data/CES/CES/Home/Controller/MenuController.class.php 第 66 行.
+NOTIC: [8] Undefined property: stdClass::$tag /Users/lawrance/Data/CES/CES/Home/Controller/UsermanagerController.class.php 第 40 行.
+NOTIC: [8] Trying to get property of non-object /Users/lawrance/Data/CES/CES/Home/Controller/UsermanagerController.class.php 第 41 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000400s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000427s ]
+
+[ 2016-11-06T14:12:23+08:00 ] 127.0.0.1 /CES/index.php/Home/Usermanager/uploaderSetTag?tag=2013
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000188s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000230s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000250s ]
+NOTIC: [2] curl_setopt(): Disabling safe uploads is no longer supported /Users/lawrance/Data/CES/CES/Home/Controller/MenuController.class.php 第 66 行.
+NOTIC: [2] curl_setopt(): Disabling safe uploads is no longer supported /Users/lawrance/Data/CES/CES/Home/Controller/MenuController.class.php 第 66 行.
+NOTIC: [8] Undefined property: stdClass::$tag /Users/lawrance/Data/CES/CES/Home/Controller/UsermanagerController.class.php 第 40 行.
+NOTIC: [8] Trying to get property of non-object /Users/lawrance/Data/CES/CES/Home/Controller/UsermanagerController.class.php 第 41 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000424s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000454s ]
+
+[ 2016-11-06T14:14:01+08:00 ] 127.0.0.1 /CES/index.php/Home/Usermanager/uploaderSetTag?tag=2013
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000190s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000233s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000253s ]
+NOTIC: [2] curl_setopt(): Disabling safe uploads is no longer supported /Users/lawrance/Data/CES/CES/Home/Controller/MenuController.class.php 第 66 行.
+NOTIC: [2] curl_setopt(): Disabling safe uploads is no longer supported /Users/lawrance/Data/CES/CES/Home/Controller/MenuController.class.php 第 66 行.
+NOTIC: [8] Undefined property: stdClass::$tag /Users/lawrance/Data/CES/CES/Home/Controller/UsermanagerController.class.php 第 40 行.
+NOTIC: [8] Trying to get property of non-object /Users/lawrance/Data/CES/CES/Home/Controller/UsermanagerController.class.php 第 41 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000366s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000390s ]
+
+[ 2016-11-06T14:14:26+08:00 ] 127.0.0.1 /CES/index.php/Home/Usermanager/uploaderSetTag?tag=2013
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000175s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000223s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000243s ]
+NOTIC: [2] curl_setopt(): Disabling safe uploads is no longer supported /Users/lawrance/Data/CES/CES/Home/Controller/MenuController.class.php 第 66 行.
+NOTIC: [2] curl_setopt(): Disabling safe uploads is no longer supported /Users/lawrance/Data/CES/CES/Home/Controller/MenuController.class.php 第 66 行.
+NOTIC: [8] Undefined property: stdClass::$tag /Users/lawrance/Data/CES/CES/Home/Controller/UsermanagerController.class.php 第 40 行.
+NOTIC: [8] Trying to get property of non-object /Users/lawrance/Data/CES/CES/Home/Controller/UsermanagerController.class.php 第 41 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000393s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000423s ]
+
+[ 2016-11-06T14:14:30+08:00 ] 127.0.0.1 /CES/index.php/Home/Usermanager/uploaderSetTag?tag=2013
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000185s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000244s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000265s ]
+NOTIC: [2] curl_setopt(): Disabling safe uploads is no longer supported /Users/lawrance/Data/CES/CES/Home/Controller/MenuController.class.php 第 66 行.
+NOTIC: [2] curl_setopt(): Disabling safe uploads is no longer supported /Users/lawrance/Data/CES/CES/Home/Controller/MenuController.class.php 第 66 行.
+NOTIC: [8] Undefined property: stdClass::$tag /Users/lawrance/Data/CES/CES/Home/Controller/UsermanagerController.class.php 第 40 行.
+NOTIC: [8] Trying to get property of non-object /Users/lawrance/Data/CES/CES/Home/Controller/UsermanagerController.class.php 第 41 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000370s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000397s ]
+
+[ 2016-11-06T14:15:01+08:00 ] 127.0.0.1 /CES/index.php/Home/Usermanager/uploaderSetTag?tag=2013
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000174s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000221s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000242s ]
+NOTIC: [2] curl_setopt(): Disabling safe uploads is no longer supported /Users/lawrance/Data/CES/CES/Home/Controller/MenuController.class.php 第 66 行.
+NOTIC: [2] curl_setopt(): Disabling safe uploads is no longer supported /Users/lawrance/Data/CES/CES/Home/Controller/MenuController.class.php 第 66 行.
+NOTIC: [8] Undefined property: stdClass::$tag /Users/lawrance/Data/CES/CES/Home/Controller/UsermanagerController.class.php 第 40 行.
+NOTIC: [8] Trying to get property of non-object /Users/lawrance/Data/CES/CES/Home/Controller/UsermanagerController.class.php 第 41 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000344s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000367s ]
+
+[ 2016-11-06T14:15:11+08:00 ] 127.0.0.1 /CES/index.php/Home/Usermanager/uploaderSetTag?tag=2013
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000180s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000222s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000242s ]
+NOTIC: [2] curl_setopt(): Disabling safe uploads is no longer supported /Users/lawrance/Data/CES/CES/Home/Controller/MenuController.class.php 第 66 行.
+NOTIC: [2] curl_setopt(): Disabling safe uploads is no longer supported /Users/lawrance/Data/CES/CES/Home/Controller/MenuController.class.php 第 66 行.
+NOTIC: [8] Undefined property: stdClass::$tag /Users/lawrance/Data/CES/CES/Home/Controller/UsermanagerController.class.php 第 40 行.
+NOTIC: [8] Trying to get property of non-object /Users/lawrance/Data/CES/CES/Home/Controller/UsermanagerController.class.php 第 41 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000357s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000380s ]
+
+[ 2016-11-06T14:15:45+08:00 ] 127.0.0.1 /CES/index.php/Home/Usermanager/uploaderSetTag?tag=2013
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000180s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000224s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000244s ]
+NOTIC: [2] curl_setopt(): Disabling safe uploads is no longer supported /Users/lawrance/Data/CES/CES/Home/Controller/MenuController.class.php 第 66 行.
+NOTIC: [2] curl_setopt(): Disabling safe uploads is no longer supported /Users/lawrance/Data/CES/CES/Home/Controller/MenuController.class.php 第 66 行.
+NOTIC: [8] Undefined property: stdClass::$tag /Users/lawrance/Data/CES/CES/Home/Controller/UsermanagerController.class.php 第 40 行.
+NOTIC: [8] Trying to get property of non-object /Users/lawrance/Data/CES/CES/Home/Controller/UsermanagerController.class.php 第 41 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000336s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000358s ]
+
+[ 2016-11-06T14:17:23+08:00 ] 127.0.0.1 /CES/index.php/Home/Usermanager/uploaderSetTag?tag=13%E7%BA%A7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000176s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000221s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000241s ]
+NOTIC: [2] curl_setopt(): Disabling safe uploads is no longer supported /Users/lawrance/Data/CES/CES/Home/Controller/MenuController.class.php 第 66 行.
+NOTIC: [2] curl_setopt(): Disabling safe uploads is no longer supported /Users/lawrance/Data/CES/CES/Home/Controller/MenuController.class.php 第 66 行.
+SQL: SHOW COLUMNS FROM `tb_user_tag` [ RunTime:0.0020s ]
+SQL: INSERT INTO `tb_user_tag` () VALUES () [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000322s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000343s ]
+
+[ 2016-11-06T14:18:47+08:00 ] 127.0.0.1 /CES/index.php/Home/Usermanager/uploaderSetTag?tag=13%E7%BA%A7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000188s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000231s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000252s ]
+NOTIC: [2] curl_setopt(): Disabling safe uploads is no longer supported /Users/lawrance/Data/CES/CES/Home/Controller/MenuController.class.php 第 66 行.
+NOTIC: [2] curl_setopt(): Disabling safe uploads is no longer supported /Users/lawrance/Data/CES/CES/Home/Controller/MenuController.class.php 第 66 行.
+NOTIC: [8] Undefined property: stdClass::$tag /Users/lawrance/Data/CES/CES/Home/Controller/UsermanagerController.class.php 第 40 行.
+NOTIC: [8] Trying to get property of non-object /Users/lawrance/Data/CES/CES/Home/Controller/UsermanagerController.class.php 第 41 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000380s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000403s ]
+
+[ 2016-11-06T14:18:59+08:00 ] 127.0.0.1 /CES/index.php/Home/Usermanager/uploaderSetTag?tag=14
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000180s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000225s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000245s ]
+NOTIC: [2] curl_setopt(): Disabling safe uploads is no longer supported /Users/lawrance/Data/CES/CES/Home/Controller/MenuController.class.php 第 66 行.
+NOTIC: [2] curl_setopt(): Disabling safe uploads is no longer supported /Users/lawrance/Data/CES/CES/Home/Controller/MenuController.class.php 第 66 行.
+SQL: SHOW COLUMNS FROM `tb_user_tag` [ RunTime:0.0020s ]
+SQL: INSERT INTO `tb_user_tag` (`tag_id`,`tag_name`) VALUES ('103','14') [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000339s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000363s ]
+
+[ 2016-11-06T14:45:20+08:00 ] 127.0.0.1 /CES/index.php/Home/Access/access?signature=2b68385528c4ec8e20051a3b26aea3436d806210&timestamp=1478414719&nonce=1757347868&openid=ocoIvxLTumwc3gpi6SPvKWrzYlt0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000466s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000503s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000536s ]
+NOTIC: [8] Undefined index: echostr /Users/lawrance/Data/CES/CES/Home/Controller/AccessController.class.php 第 280 行.
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `tb_user` WHERE `openid` = 'ocoIvxLTumwc3gpi6SPvKWrzYlt0' LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2016-11-06T14:54:50+08:00 ] 127.0.0.1 /CES/index.php/Home/Usermanager/addopenInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000214s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000218s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000236s ]
+NOTIC: [8] Undefined index: id /Users/lawrance/Data/CES/CES/Home/Controller/UsermanagerController.class.php 第 121 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000084s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000124s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006910s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006954s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000207s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000239s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000311s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000333s ]
+
+[ 2016-11-06T20:50:24+08:00 ] 127.0.0.1 /CES/index.php/Home/Access/access?signature=6e4c29d81388620ee365fa44f54115f3e825b7f8&timestamp=1478436623&nonce=1775298822&openid=ocoIvxLTumwc3gpi6SPvKWrzYlt0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000441s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000479s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000548s ]
+NOTIC: [8] Undefined index: echostr /Users/lawrance/Data/CES/CES/Home/Controller/AccessController.class.php 第 280 行.
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `tb_user` WHERE `openid` = 'ocoIvxLTumwc3gpi6SPvKWrzYlt0' LIMIT 1   [ RunTime:0.0018s ]
+
+[ 2016-11-06T20:50:30+08:00 ] 127.0.0.1 /CES/index.php/Home/Access/access?signature=fecb1546aa692d03b575c996ec6ff7cc7e05770b&timestamp=1478436630&nonce=581916035&openid=ocoIvxLTumwc3gpi6SPvKWrzYlt0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000191s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000225s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000245s ]
+NOTIC: [8] Undefined index: echostr /Users/lawrance/Data/CES/CES/Home/Controller/AccessController.class.php 第 280 行.
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tb_user` WHERE `openid` = 'ocoIvxLTumwc3gpi6SPvKWrzYlt0' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-11-06T20:50:33+08:00 ] 127.0.0.1 /CES/index.php/Home/GroupSend/sendTest?id=ocoIvxLTumwc3gpi6SPvKWrzYlt0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000189s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000253s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000280s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000100s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007447s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007479s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000320s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000346s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000507s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000532s ]
+
+[ 2016-11-06T20:50:42+08:00 ] 127.0.0.1 /CES/index.php/Home/Access/access
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000165s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000203s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000222s ]
+NOTIC: [8] Undefined index: echostr /Users/lawrance/Data/CES/CES/Home/Controller/AccessController.class.php 第 280 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000224s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000242s ]
+
+[ 2016-11-06T20:50:51+08:00 ] 127.0.0.1 /CES/index.php/Home/GroupSend/sendTest?id=ocoIvxLTumwc3gpi6SPvKWrzYlt0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000212s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000356s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000391s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000108s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005050s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005089s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000164s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000187s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000425s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000459s ]
+
+[ 2016-11-06T20:51:01+08:00 ] 127.0.0.1 /CES/index.php/Home/GroupSend/sendTextArray
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000216s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000234s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000256s ]
+NOTIC: [8] Undefined offset: 0 /Users/lawrance/Data/CES/CES/Home/Controller/GroupSendController.class.php 第 171 行.
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0019s ]
+SQL: SELECT `openid` FROM `tb_user` WHERE `stu_num` = '20135580' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `openid` FROM `tb_user` WHERE `stu_num` = '20135580' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [2] curl_setopt(): Disabling safe uploads is no longer supported /Users/lawrance/Data/CES/CES/Home/Controller/MenuController.class.php 第 66 行.
+NOTIC: [2] curl_setopt(): Disabling safe uploads is no longer supported /Users/lawrance/Data/CES/CES/Home/Controller/MenuController.class.php 第 66 行.
+
+[ 2016-11-06T20:51:02+08:00 ] 127.0.0.1 /CES/index.php/Home/Access/access?signature=24409822164b696c94cd4ef3a01d77babeff4afe&timestamp=1478436662&nonce=783124908&openid=ocoIvxO2yhmOTeuhoA2gmRCVDnSo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000239s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000475s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000514s ]
+NOTIC: [8] Undefined index: echostr /Users/lawrance/Data/CES/CES/Home/Controller/AccessController.class.php 第 280 行.
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `tb_user` WHERE `openid` = 'ocoIvxO2yhmOTeuhoA2gmRCVDnSo' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-11-06T20:51:05+08:00 ] 127.0.0.1 /CES/index.php/Home/Access/access?signature=649957756eaaab08b5edae03f848722e88391f10&timestamp=1478436665&nonce=341850475&openid=ocoIvxLTumwc3gpi6SPvKWrzYlt0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000205s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000255s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000283s ]
+NOTIC: [8] Undefined index: echostr /Users/lawrance/Data/CES/CES/Home/Controller/AccessController.class.php 第 280 行.
+SQL: SHOW COLUMNS FROM `tb_user` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `tb_user` WHERE `openid` = 'ocoIvxLTumwc3gpi6SPvKWrzYlt0' LIMIT 1   [ RunTime:0.0003s ]
+

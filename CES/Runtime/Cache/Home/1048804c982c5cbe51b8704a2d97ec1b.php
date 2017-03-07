@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
 <html lang="en">
 <head>
     <!-- BEGIN META -->
@@ -11,12 +11,12 @@
     <title>微信绑定提示</title>
 
     <!-- BEGIN STYLESHEET -->
-    <link href="__PUBLIC__/css/bootstrap.min.css" rel="stylesheet"><!-- BOOTSTRAP CSS -->
-    <link href="__PUBLIC__/css/bootstrap-reset.css" rel="stylesheet"><!-- BOOTSTRAP CSS -->
-    <link href="__PUBLIC__/assets/font-awesome/css/font-awesome.css" rel="stylesheet">
+    <link href="/CES/Public/css/bootstrap.min.css" rel="stylesheet"><!-- BOOTSTRAP CSS -->
+    <link href="/CES/Public/css/bootstrap-reset.css" rel="stylesheet"><!-- BOOTSTRAP CSS -->
+    <link href="/CES/Public/assets/font-awesome/css/font-awesome.css" rel="stylesheet">
     <!-- FONT AWESOME ICON STYLESHEET -->
-    <link href="__PUBLIC__/css/style.css" rel="stylesheet"><!-- THEME BASIC CSS -->
-    <link href="__PUBLIC__/css/style-responsive.css" rel="stylesheet"><!-- THEME BASIC RESPONSIVE  CSS -->
+    <link href="/CES/Public/css/style.css" rel="stylesheet"><!-- THEME BASIC CSS -->
+    <link href="/CES/Public/css/style-responsive.css" rel="stylesheet"><!-- THEME BASIC RESPONSIVE  CSS -->
     <!-- END STYLESHEET -->
 </head>
 <body class="body-404">
@@ -25,7 +25,7 @@
     <section class="error-wrapper">
         <h2 style="margin-top: 50%;">绑定已完成</h2>
 
-        <h3 style="margin-top: 2%;">{$stu_name}您好,您已成功绑定本系统</h3>
+        <h3 style="margin-top: 2%;"><?php echo ($stu_name); ?>您好,您已成功绑定本系统</h3>
 
         <p class="page-404" style="margin-top: 10%;">绑定信息已成功提交，感谢您绑定本系统.</p>
     </section>
@@ -33,5 +33,3 @@
 </div>
 </body>
 </html>
-
-

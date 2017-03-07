@@ -1,0 +1,16 @@
+[ 2016-12-12T11:13:38+08:00 ] 127.0.0.1 /CES/index.php/Home/Access/access?signature=a80e7b7275c8c73fb8ac9f91a88c2e70decaa1cd&echostr=1522271724719037930&timestamp=1481512416&nonce=1491086237
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000504s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000510s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000540s ]
+
+[ 2016-12-12T11:13:39+08:00 ] 127.0.0.1 /CES/index.php/Home/Access/access?signature=d81c0a70f67f61bd4dbed2e94f96175fa85bb3df&echostr=4835884008639266810&timestamp=1481512418&nonce=27823381
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000199s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000237s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000259s ]
+
